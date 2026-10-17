@@ -1,0 +1,29 @@
+{
+  "projectId": "e7ec7935-b916-4572-b38f-76cb899a0168",
+  "items": [
+    {
+      "shot": "1-05",
+      "nodeId": "node_d269c8b23c",
+      "submitId": "1d911ea0-f890-4d9e-828a-8a2792b81803",
+      "state": "succeeded",
+      "resourceId": "10c54f82-2536-46ae-aa37-2ece2b2080f0"
+    },
+    {
+      "shot": "2-01",
+      "nodeId": "node_6ca8b087e7",
+      "submitId": "055a8a7e-bce6-46f1-8b02-dff9c296c368",
+      "state": "succeeded",
+      "resourceId": "8dfbc0ad-bab0-41f7-919b-ad1f292d78c5"
+    },
+    {
+      "shot": "2-03",
+      "nodeId": "node_bea7901f54",
+      "submitId": "e17e35a0-07c2-4154-a79d-d4f3554654aa",
+      "state": "succeeded",
+      "resourceId": "36e73bfa-f043-433a-9a78-a635b5f227b7",
+      "maxCredits": 48
+    }
+  ],
+  "requestId": "20261016222948C7DC13B97DFC80ED5784",
+  "approvedCeiling": 156
+}

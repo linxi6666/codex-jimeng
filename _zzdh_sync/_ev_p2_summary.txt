@@ -1,0 +1,11 @@
+{"path": "D:\\字字动画_9_0_9(1)\\字字动画_9_0_9\\工作目录\\默认\\10月15日\\26a3622011_0.png", "exists": false, "is_video": false, "thumbnail_path": ""}
+{"path": "D:\\字字动画_9_0_9(1)\\字字动画_9_0_9\\工作目录\\默认\\10月15日\\26a3622011_1.png", "exists": false, "is_video": false, "thumbnail_path": ""}
+{"path": "D:\\字字动画_9_0_9(1)\\字字动画_9_0_9\\工作目录\\默认\\10月15日\\26a3622011_2.png", "exists": false, "is_video": false, "thumbnail_path": ""}
+{"path": "D:\\字字动画_9_0_9(1)\\字字动画_9_0_9\\工作目录\\默认\\10月15日\\26a3622011_3.png", "exists": false, "is_video": false, "thumbnail_path": ""}
+---round_previews: []
+prompt=""
+processed_prompt=""
+first_frame_prompt=""
+first_frame_image_path=""
+video_prompt_mode=True batch_num=1 video_batch_num=1
+reference_images=[]

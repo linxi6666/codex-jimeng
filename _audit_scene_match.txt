@@ -1,0 +1,323 @@
+EP11 shots=22 {'unmatched': 8, 'bound': 14}
+EP12 shots=8 {'bound': 8}
+EP13 shots=16 {'bound': 9, 'unmatched': 7}
+EP14 shots=16 {'bound': 16}
+EP15 shots=26 {'bound': 7, 'unmatched': 19}
+EP16 shots=30 {'bound': 30}
+EP17 shots=18 {'unmatched': 18}
+EP18 shots=23 {'unmatched': 24}
+EP19 shots=12 {'unmatched': 12}
+EP20 shots=12 {'unmatched': 12}
+EP21 shots=10 {'unmatched': 10}
+EP22 shots=14 {'unmatched': 14}
+EP23 shots=21 {'unmatched': 21}
+EP24 shots=16 {'unmatched': 18}
+EP25 shots=11 {'unmatched': 11}
+EP26 shots=13 {'unmatched': 12, 'bound': 1}
+EP27 shots=13 {'unmatched': 13}
+EP28 shots=20 {'unmatched': 23}
+EP29 shots=13 {'unmatched': 13}
+EP30 shots=15 {'unmatched': 15}
+EP31 shots=11 {'unmatched': 11}
+EP32 shots=14 {'unmatched': 14}
+EP33 shots=11 {'unmatched': 11}
+EP34 shots=18 {'unmatched': 18}
+EP35 shots=15 {'unmatched': 15}
+EP36 shots=14 {'unmatched': 14}
+EP37 shots=13 {'unmatched': 13}
+EP38 shots=17 {'unmatched': 17}
+EP39 shots=14 {'unmatched': 14}
+EP40 shots=27 {'unmatched': 27}
+EP41 shots=13 {'unmatched': 22}
+EP42 shots=13 {'unmatched': 18}
+EP43 shots=14 {'unmatched': 20}
+EP44 shots=19 {'unmatched': 21}
+EP45 shots=15 {'bound': 15, 'unmatched': 4}
+EP46 shots=13 {'unmatched': 17}
+EP47 shots=13 {'unmatched': 13}
+EP48 shots=17 {'unmatched': 17}
+EP49 shots=17 {'unmatched': 17}
+EP50 shots=23 {'unmatched': 23}
+EP51 shots=8 {'unmatched': 8}
+EP52 shots=14 {'unmatched': 14}
+EP53 shots=13 {'unmatched': 23}
+EP54 shots=9 {'unmatched': 15}
+EP55 shots=10 {'unmatched': 15}
+EP56 shots=8 {'unmatched': 13}
+EP57 shots=11 {'unmatched': 16}
+EP58 shots=12 {'unmatched': 20}
+EP59 shots=15 {'bound': 15}
+EP60 shots=15 {'bound': 10, 'unmatched': 6}
+EP61 shots=19 {'unmatched': 21}
+EP62 shots=22 {'unmatched': 23}
+EP63 shots=27 {'unmatched': 29}
+EP64 shots=19 {'unmatched': 22}
+EP65 shots=15 {'bound': 14, 'unmatched': 1}
+EP66 shots=14 {'unmatched': 14}
+EP67 shots=33 {'bound': 12, 'unmatched': 22}
+EP68 shots=37 {'unmatched': 27, 'bound': 14}
+
+========== EP 11
+  1-01 UNMATCHED      日 内 周彪家
+========== EP 12
+========== EP 13
+  3-01 UNMATCHED      日 外 林深家门口
+========== EP 14
+========== EP 15
+  2-01 UNMATCHED      日 外 断魂崖峭壁下至平台
+========== EP 16
+========== EP 17
+  1-01 UNMATCHED      
+  2-01 UNMATCHED      珍味楼门口
+========== EP 18
+  1-01 UNMATCHED      珍味楼门口
+  2-01 UNMATCHED      珍味楼雅间
+  4-01 UNMATCHED      
+========== EP 19
+  1-01 UNMATCHED      
+========== EP 20
+  1-01 UNMATCHED      林家门外
+========== EP 21
+  1-01 UNMATCHED      林家卧室
+========== EP 22
+  1-01 UNMATCHED      
+========== EP 23
+  1-01 UNMATCHED      夜，内，；沿用原酒桌和室内夜光。
+========== EP 24
+  1-01 UNMATCHED      日，内，王秀莲家酒桌；原文标日间，自然室内光，具体场景资产待确认。
+========== EP 25
+  1-01 UNMATCHED      夜，外，周彪家门口；桑塔纳停在门前，前灯仍亮。
+  1-08 UNMATCHED      夜，桑塔纳车内，停在周彪家门前；车灯照出前方路面。
+========== EP 26
+  1-01 UNMATCHED      夜，外，；同一辆桑塔纳行驶。
+  1-02 UNMATCHED      夜，桑塔纳前排，车缓慢行驶。
+  2-01 UNMATCHED      夜，外，王家门口，村民所持火把照亮近处。
+========== EP 27
+  1-01 UNMATCHED      夜，内，王秀莲家门内至堂屋床边，沿用屋内夜光；衣物与被褥完整遮蔽身体。
+========== EP 28
+  1-01 UNMATCHED      夜，内，王秀莲家堂屋，床区与原酒桌椅相邻的可行通路；衣物完整、被褥遮蔽。
+  1-20 UNMATCHED      夜，内，，床区与原酒桌椅相邻的可行通路；衣物完整、被褥遮蔽。
+========== EP 29
+  1-01 UNMATCHED      夜，内，
+========== EP 30
+  1-01 UNMATCHED      日，外，山货行门口
+  2-01 UNMATCHED      日，外，
+========== EP 31
+  1-01 UNMATCHED      清晨，外，山路
+  2-01 UNMATCHED      日，外，山崖下
+========== EP 32
+  1-01 UNMATCHED      日，外，采芝崖壁
+  2-01 UNMATCHED      日，外，下山山道
+========== EP 33
+  1-01 UNMATCHED      日，外，山道岔口
+  1-11 UNMATCHED      夕阳，外，下山山道
+========== EP 34
+  1-01 UNMATCHED      日，内，县城药材行
+  2-01 UNMATCHED      日，外，
+  2-03 UNMATCHED      日，外，茶馆口
+========== EP 35
+  1-01 UNMATCHED      日，内，，柜台区。
+  2-01 UNMATCHED      日，内，，太师椅至窗前。
+========== EP 36
+  1-01 UNMATCHED      夜，内，，油灯照着炕头。
+========== EP 37
+  1-01 UNMATCHED      日，内，王家破屋，炕与堂屋椅子相邻。
+========== EP 38
+  1-01 UNMATCHED      日，外，，靠墙驴车旁。
+  2-01 UNMATCHED      日，外，，修整后的装备旁；前后有时间省略。
+========== EP 39
+  1-01 UNMATCHED      日，，翻修驴车旁；原稿内外标签待确认。
+  2-01 UNMATCHED      日，内，，太师椅前。
+========== EP 40
+  1-01 UNMATCHED      天刚蒙蒙亮，外，村口山神庙，香炉前。
+  2-01 UNMATCHED      日，外，，台下参赛区与台前。
+  2-24 UNMATCHED      日，外，，参赛区通往林口。
+========== EP 41
+  1-01 UNMATCHED      日，外，；林中行进段
+  1-04 UNMATCHED      日，外，林间陷阱空地：后方岩壁、两侧灌木、前方唯一窄路；专用场景待确认
+========== EP 42
+  1-01 UNMATCHED      日，外，森林岩壁前陷阱空地，笼门朝正面窄路；专用场景待确认
+========== EP 43
+  1-01 UNMATCHED      日，外，密林深处树荫下；抬架与雪猪笼旁
+========== EP 44
+  1-01 UNMATCHED      日，外，；林间通路、侧面山坡与前方大树；具体坡树布局待素材确认
+========== EP 45
+  1-05 UNMATCHED      日，内，堂屋；太师椅、原有桌面与进门处，场景参考待确认
+========== EP 46
+  1-01 UNMATCHED      日，外，；继续向密林深处的通行线，尚未实际进入禁区
+========== EP 47
+  1-01 UNMATCHED      日，外，原始森林边缘
+  1-02 UNMATCHED      日，外，林缘树旁
+  1-03 UNMATCHED      日，外，林缘湿土
+  1-04 UNMATCHED      日，外，禁区边缘
+  1-05 UNMATCHED      日，外，林缘脚印旁
+  1-06 UNMATCHED      日，外，林缘
+  1-08 UNMATCHED      日，外，脚印旁
+  1-11 UNMATCHED      日，外，临时营地边
+  1-12 UNMATCHED      日，外，入口树边
+  1-13 UNMATCHED      日，外，禁区外围营地
+========== EP 48
+  1-01 UNMATCHED      日，外，原始森林禁区
+  1-02 UNMATCHED      日，外，禁区古木间
+  1-03 UNMATCHED      日，外，禁区林间
+  1-04 UNMATCHED      日，外，禁区深处，明确省略约一小时行路
+  1-05 UNMATCHED      日，外，禁区岩壁前，省略前往两百米路程
+  1-06 UNMATCHED      日，外，禁区岩壁前
+  1-07 UNMATCHED      日，外，背阴岩壁下
+  1-08 UNMATCHED      日，外，岩壁前
+  1-09 UNMATCHED      日，外，岩壁下
+  1-14 UNMATCHED      日，外，岩壁与洞口
+  1-15 UNMATCHED      日，外，洞口前
+  1-16 UNMATCHED      日，外，洞前安全区
+========== EP 49
+  1-01 UNMATCHED      日，外，禁区洞口前
+  1-02 UNMATCHED      日，外，洞口前
+  1-03 UNMATCHED      日，外，洞口与山沟侧地带
+  1-04 UNMATCHED      日，外，塌方边缘外
+  1-05 UNMATCHED      日，外，安全区
+  1-06 UNMATCHED      日，外，洞口外安全边缘
+  1-07 UNMATCHED      日，外，网住目标旁
+  1-08 UNMATCHED      日，外，安全地面与旁侧山沟
+  1-09 UNMATCHED      日，外，山沟旁安全地面
+  1-11 UNMATCHED      日，外，塌方外安全地面
+  1-12 UNMATCHED      日，外，安全地面
+  1-13 UNMATCHED      日，外，网住目标侧面
+  1-14 UNMATCHED      日，外，洞口外安全地面
+  1-15 UNMATCHED      日，外，静止目标旁
+  1-17 UNMATCHED      日，外，禁区安全地面
+========== EP 50
+  1-01 UNMATCHED      日，外，山珍大会人群最前方，日头西斜
+  1-02 UNMATCHED      日，外，山珍大会前排
+  1-03 UNMATCHED      日，外，前排等待处
+  1-05 UNMATCHED      日，外，前排
+  1-07 UNMATCHED      日，外，现场前排
+  1-08 UNMATCHED      日，外，山林来路到大会入口
+  1-09 UNMATCHED      日，外，，卸下的山货筐旁
+  1-10 UNMATCHED      日，外，，参筐边
+  1-11 UNMATCHED      日，外，，胡队山货旁
+  1-12 UNMATCHED      日，外，，参筐外沿
+  1-14 UNMATCHED      日，外，，围观人群外圈
+  1-15 UNMATCHED      日，外，验货区域
+  1-16 UNMATCHED      日，外，，验货区，明确省略约一刻钟检查过程
+  1-17 UNMATCHED      日，外，，验货区
+  1-18 UNMATCHED      日，外，验货区
+  1-19 UNMATCHED      日，外，，围观前排
+  1-20 UNMATCHED      日，外，，围观区
+  1-21 UNMATCHED      日，外，，人群外缘
+  1-22 UNMATCHED      日，外，验货区到前排等待处
+========== EP 51
+  1-01 UNMATCHED      日，外，大会前排，日头西斜
+  1-02 UNMATCHED      日，外，前排
+  1-05 UNMATCHED      日，外，，靠近前排的围观区
+  1-07 UNMATCHED      日，外，大会山林入口山道
+  1-08 UNMATCHED      日，外，大会前排
+========== EP 52
+  1-01 UNMATCHED      日，外，大会入口
+  1-02 UNMATCHED      日，外，，大会前沿围观区
+  1-03 UNMATCHED      日，外，驴车停靠处
+  1-04 UNMATCHED      日，外，车侧
+  1-05 UNMATCHED      日，外，车侧与胡货堆之间
+  1-06 UNMATCHED      日，外，车旁围观边
+  1-07 UNMATCHED      日，外，，车旁围观外沿
+  1-08 UNMATCHED      日，外，，围观外沿
+  1-11 UNMATCHED      日，外，车侧对面
+  1-12 UNMATCHED      日，外，驴车侧
+  1-13 UNMATCHED      日，外，驴车侧地面
+  1-14 UNMATCHED      日，外，车侧货物前
+========== EP 53
+  1-01 UNMATCHED      ，日间，沿用上一集夕照方向。
+  1-02 UNMATCHED      ，日，林深驴车旁。
+  1-02 UNMATCHED      ，日，货区外沿。
+  1-03 UNMATCHED      ，日，两方货区之间。
+  1-04 UNMATCHED      ，日，驴车货区。
+  1-04 UNMATCHED      ，日，林深托举处。
+  1-05 UNMATCHED      ，日，货区前沿。
+  1-05 UNMATCHED      ，日，群众前排。
+  1-06 UNMATCHED      ，日，林深展示位。
+  1-07 UNMATCHED      ，日，老陈托参处。
+  1-07 UNMATCHED      ，日。
+  1-08 UNMATCHED      ，日，货区通道。
+  1-08 UNMATCHED      ，日，另一侧货区边。
+  1-09 UNMATCHED      ，日，驴车旁。
+  1-11 UNMATCHED      ，日，背篓到展示地面的一步距离。
+  1-12 UNMATCHED      ，日，地面展示位。
+  1-13 UNMATCHED      ，日，货区之间。
+========== EP 54
+  1-01 UNMATCHED      ，日，首乌展示位与两方货区之间。
+  1-01 UNMATCHED      ，日。
+  1-02 UNMATCHED      ，日，货区通道。
+  1-03 UNMATCHED      ，日，驴车货区前。
+  1-04 UNMATCHED      ，日，货区外围。
+  1-04 UNMATCHED      ，日，外围另一小段。
+  1-07 UNMATCHED      ，日，原有台上。
+  1-07 UNMATCHED      ，日，台上。
+========== EP 55
+  1-01 UNMATCHED      ，日，台下林深货区前。
+  1-01 UNMATCHED      ，日，空地。
+  1-02 UNMATCHED      ，日，货区前空地。
+  1-03 UNMATCHED      山珍大会附近可见山边，日。
+  1-04 UNMATCHED      ，日，人群中心。
+  1-05 UNMATCHED      ，日。
+  1-06 UNMATCHED      ，日，人群外围到中心的空隙。
+  1-10 UNMATCHED      ，日，远处长白山被夕阳染成金红。
+========== EP 56
+  1-01 UNMATCHED      ，日，人群中心外沿。
+  1-01 UNMATCHED      ，日。
+  1-02 UNMATCHED      ，日，林深前方狭小空隙。
+  1-03 UNMATCHED      ，日，林深侧前方。
+  1-04 UNMATCHED      ，日，人群中心。
+  1-08 UNMATCHED      ，日，记者圈外围。
+========== EP 57
+  1-01 UNMATCHED      ，日，人群外侧到场外的通道。
+  1-02 UNMATCHED      ，日，场外通道口。
+  1-03 UNMATCHED      ，日，场外通道。
+  1-03 UNMATCHED      ，日，通道外沿。
+  1-04 UNMATCHED      ，日，台下靠近人群外沿。
+  1-05 UNMATCHED      ，日，台下轮椅旁。
+  1-06 UNMATCHED      ，日，台下。
+  1-07 UNMATCHED      ，日，台上到台下轮椅之间。
+  1-07 UNMATCHED      ，日，轮椅前。
+  1-08 UNMATCHED      ，日，轮椅旁。
+  1-11 UNMATCHED      ，日，轮椅前偏侧。
+  1-11 UNMATCHED      ，日。
+========== EP 58
+  1-01 UNMATCHED      ，日，台下轮椅旁。
+  1-01 UNMATCHED      ，日。
+  1-02 UNMATCHED      ，日，轮椅前。
+  1-04 UNMATCHED      ，日，轮椅前空隙。
+  1-05 UNMATCHED      ，日，父亲轮椅前。
+  2-01 UNMATCHED      ，日，换场，回家路程省略。
+  2-02 UNMATCHED      ，日，从院门通向堂屋的来向。
+  2-02 UNMATCHED      ，日，炕边。
+  2-03 UNMATCHED      ，日，入口到炕边空隙。
+  2-04 UNMATCHED      ，日，炕前空隙。
+  2-05 UNMATCHED      ，日，炕前通道。
+========== EP 59
+========== EP 60
+  2-01 UNMATCHED      日，外，，村口树下。
+  2-03 UNMATCHED      日，外，村口树下。
+========== EP 61
+  1-01 UNMATCHED      日，外，村口树下；桌后为合作社一侧，桌前为村民。
+  1-03 UNMATCHED      日，外，，村口树下；桌后为合作社一侧，桌前为村民。
+========== EP 62
+  1-01 UNMATCHED      日，外，，村口树下合作社签约桌。
+  1-03 UNMATCHED      日，外，村口树下合作社签约桌。
+  2-01 UNMATCHED      日，内，林家卧室；专用日间卧室素材待确认，不以夜间小屋替代。
+  2-07 UNMATCHED      日，外，林家门口至村口马车处；地点转换按正文明确建立。
+========== EP 63
+  1-01 UNMATCHED      日，内，县城医院心外科王主任办公室及门口。
+  2-01 UNMATCHED      次日上午，内，手术室外走廊；手术室门、长椅与轮椅为位置锚点。
+========== EP 64
+  1-01 UNMATCHED      日，内，ICU门口及通向手术室的转运走廊。
+  2-01 UNMATCHED      日，内，普通病房；相隔ICU观察期，明确时间省略，不连成当天立刻转房。
+========== EP 65
+  1-03 UNMATCHED      日，内，堂屋；原稿后段暗室油灯未擅改时段
+========== EP 66
+  1-01 UNMATCHED      日，内，珍味楼雅间
+========== EP 67
+  1-13 UNMATCHED      日，内，林家屋中仅同宅候选，未看参考图）
+  2-01 UNMATCHED      日，外，进山路与三岔口
+========== EP 68
+  1-01 UNMATCHED      日，外，村口晒场
+  2-04 UNMATCHED      日，内外，堂屋、书房西墙与院门外；每镜明确当前空间
+  3-01 UNMATCHED      山顶；原场头“夜 外”，正文“傍晚/夕阳/火烧云”冲突未决，本地导演稿保留正文画面意图，生产前须确认时段

@@ -1,0 +1,252 @@
+{
+  "zzdh_import_image_from_path": {
+    "name": "zzdh_import_image_from_path",
+    "description": "从文件路径导入图片",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "unique_name": {
+          "type": "string",
+          "description": "分镜唯一标识"
+        },
+        "image_path": {
+          "type": "string",
+          "description": "图片文件路径"
+        }
+      },
+      "required": [
+        "unique_name",
+        "image_path"
+      ]
+    }
+  },
+  "zzdh_get_entity_list": {
+    "name": "zzdh_get_entity_list",
+    "description": "获取角色/场景/物品列表",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "location",
+            "item"
+          ],
+          "description": "实体类型"
+        }
+      },
+      "required": [
+        "entity_type"
+      ]
+    }
+  },
+  "zzdh_create_entity": {
+    "name": "zzdh_create_entity",
+    "description": "创建角色/场景/物品实体",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "location",
+            "item"
+          ],
+          "description": "实体类型"
+        },
+        "name": {
+          "type": "string",
+          "description": "实体名称"
+        },
+        "description": {
+          "type": "string",
+          "description": "实体人设/事实描述（角色性格、身份和稳定特征，不是生图提示词）"
+        },
+        "image_path": {
+          "type": "string",
+          "description": "参考图片路径（可选）"
+        }
+      },
+      "required": [
+        "entity_type",
+        "name"
+      ]
+    }
+  },
+  "zzdh_delete_entity": {
+    "name": "zzdh_delete_entity",
+    "description": "删除角色/场景/物品实体",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "location",
+            "item"
+          ],
+          "description": "实体类型"
+        },
+        "entity_id": {
+          "type": "string",
+          "description": "实体ID"
+        }
+      },
+      "required": [
+        "entity_type",
+        "entity_id"
+      ]
+    }
+  },
+  "zzdh_update_entity": {
+    "name": "zzdh_update_entity",
+    "description": "更新角色/场景/物品的名称、人设描述、独立生图提示词或主图。兼容 fields 对象和同名直接字段。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "location",
+            "item"
+          ],
+          "description": "实体类型"
+        },
+        "entity_id": {
+          "type": "string",
+          "description": "实体ID"
+        },
+        "fields": {
+          "type": "object",
+          "description": "兼容旧调用：只传需要修改的字段",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "实体名称"
+            },
+            "description": {
+              "type": "string",
+              "description": "实体人设/事实描述"
+            },
+            "image_prompt": {
+              "type": "string",
+              "description": "独立生图提示词"
+            },
+            "voice_id": {
+              "type": [
+                "integer",
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": true
+        },
+        "name": {
+          "type": "string",
+          "description": "实体名称（可选）"
+        },
+        "description": {
+          "type": "string",
+          "description": "实体人设/事实描述（可选，不是生图提示词）"
+        },
+        "image_prompt": {
+          "type": "string",
+          "description": "给图片模型使用的独立生图提示词（可选）"
+        },
+        "image_path": {
+          "type": "string",
+          "description": "候选图片路径（可选，仅接受当前作品候选目录中的图片）"
+        }
+      },
+      "required": [
+        "entity_type",
+        "entity_id"
+      ]
+    }
+  },
+  "zzdh_generate_entity_ref_media": {
+    "name": "zzdh_generate_entity_ref_media",
+    "description": "为角色/场景/物品生成参考媒体（如音频）",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "location",
+            "item"
+          ],
+          "description": "实体类型"
+        },
+        "entity_id": {
+          "type": "string",
+          "description": "实体ID"
+        },
+        "media_type": {
+          "type": "string",
+          "enum": [
+            "audio"
+          ],
+          "description": "媒体类型（当前仅支持 audio）",
+          "default": "audio"
+        }
+      },
+      "required": [
+        "entity_type",
+        "entity_id"
+      ]
+    }
+  },
+  "zzdh_batch_create_entity": {
+    "name": "zzdh_batch_create_entity",
+    "description": "批量创建角色/场景/物品实体。返回 {success, count, results:[...], errors:[{index, error}]}；单条失败不中断整批。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "description": "要创建的实体列表。",
+          "items": {
+            "type": "object",
+            "properties": {
+              "entity_type": {
+                "type": "string",
+                "enum": [
+                  "character",
+                  "location",
+                  "item"
+                ],
+                "description": "实体类型"
+              },
+              "name": {
+                "type": "string",
+                "description": "实体名称"
+              },
+              "description": {
+                "type": "string",
+                "description": "实体描述（可选）"
+              },
+              "image_path": {
+                "type": "string",
+                "description": "参考图片路径（可选）"
+              }
+            },
+            "required": [
+              "entity_type",
+              "name"
+            ]
+          }
+        }
+      },
+      "required": [
+        "entities"
+      ]
+    }
+  }
+}

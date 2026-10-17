@@ -1,0 +1,163 @@
+==============================
+PROJECT e7ec7935-b916-4572-b38f-76cb899a0168
+name prefixes: {'人设': 13, '道具': 8, '场景': 8}
+  周彪 | 山神-人设-周彪 | node_anc40mzt0b
+  山珍大会现场 | 山神-场景-山珍大会现场 | node_s8b39fqfx1
+  彩礼 | 山神-道具-彩礼 | node_wfb6taq1m4
+  断魂崖平台 | 山神-场景-断魂崖平台 | node_pjqd0vk7wq
+  林家堂屋 | 山神-场景-林家堂屋（日） | node_xm5m75474s
+  林家院子 | 山神-场景-林家院子（日） | node_7pnc7tcmqg
+  林小丫 | 山神-人设-林小丫 | node_t5m3bgvqxq
+  林根生 | 山神-人设-林根生 | node_327agkhx9q
+  林深 | 山神-人设-林深 | node_rw7ey66aam
+  林石 | 山神-人设-林石 | node_8sznf47jwk
+  柴刀 | 山神-道具-柴刀 | node_c8gbkxeng4
+  毛驴 | 山神-人设-毛驴 | node_hjj2bmj9hh
+  狼 | 山神-人设-狼 | node_kna6h9ncke
+  王家后院 | 山神-场景-王家后院 | node_eddcq662wv
+  王母 | 山神-人设-王母 | node_z34p8h6qe9
+  王秀莲 | 山神-人设-王秀莲 | node_ks54rqdcd7
+  珍味楼后厨 | 山神-场景-珍味楼后厨（日） | node_7s7a0svc0r
+  珍味楼大厅 | 山神-场景-珍味楼大厅（日） | node_0mcwtpyz3j
+  算盘账本 | 山神-道具-算盘账本 | node_jmhfttrrgp
+  老陈 | 山神-人设-老陈 | node_kw10t382v1
+  背篓 | 山神-道具-背篓 | node_w1dq3pgfwd
+  胡万山 | 山神-人设-胡万山 | node_z05gdsa7dn
+  苏红秀 | 山神-人设-苏红秀 | node_1637ma2516
+  药锄 | 山神-道具-药锄 | node_8dpdwzx5df
+  野山参 | 山神-道具-野山参 | node_mp8ze8tdy1
+  野猪 | 山神-人设-野猪 | node_vfjwr1a5kk
+  长白山密林 | 山神-场景-长白山密林（日） | node_yc1cpeavgv
+  驴车 | 山神-道具-驴车 | node_w2cb69qnr4
+  麻绳 | 山神-道具-麻绳 | node_qpcxdnpqjv
+==============================
+PROJECT c02eb93d-451a-4ea7-92d0-6a5f46d49a97
+name prefixes: {'人设': 11, '道具': 3, '场景': 3}
+  周彪 | 山神-人设-周彪 | node_bhhdezp7qf
+  周彪老婆 | 山神-人设-周彪老婆 | node_rkr2n0vh58
+  孙大夫 | 山神-人设-孙大夫 | node_8rkt69hpre
+  村口大槐树下 | 山神-场景-村口大槐树下（日） | node_eewk1b9fwz
+  村里路上 | 山神-场景-村里路上（夜） | node_hc7tjwgnqn
+  林根生 | 山神-人设-林根生 | node_t42qqy4ayq
+  林深 | 山神-人设-林深 | node_jrbcqc3878
+  林石 | 山神-人设-林石 | node_nr7w6zf7t6
+  柴刀 | 山神-道具-柴刀 | node_7xrm4fachq
+  煤油灯 | 山神-道具-煤油灯 | node_qf9e078qtc
+  狼 | 山神-人设-狼 | node_j26q41n05k
+  王家堂屋 | 山神-场景-王家堂屋（夜） | node_dn5b0dwf80
+  王母 | 山神-人设-王母 | node_d0f3q2ck16
+  王父 | 山神-人设-王父 | node_m21yw9kn71
+  王秀莲 | 山神-人设-王秀莲 | node_ttjq98vjq2
+  背篓 | 山神-道具-背篓 | node_6c94kqn56p
+  黄鼠狼 | 山神-人设-黄鼠狼 | node_r4a8k2rx2f
+==============================
+PROJECT 7374128f-fc98-4450-a3c7-a65d2410a330
+name prefixes: {'人设': 13, '道具': 11, '场景': 7}
+  千年灵芝 | 山神-道具-千年灵芝 | node_c3xdxx86bv
+  县城街道 | 山神-场景-县城街道（日） | node_h0crzj4gtx
+  周彪 | 山神-人设-周彪 | node_hvbbmxrcy3
+  山珍大会现场 | 山神-场景-山珍大会现场 | node_0zg78hwqrx
+  山脚下 | 山神-场景-山脚下（日） | node_6w4rjnveg4
+  摩托车 | 山神-道具-摩托车 | node_3mt5g1j120
+  林家堂屋 | 山神-场景-林家堂屋（日） | node_rr1334wvf0
+  林家院子 | 山神-场景-林家院子（日） | node_j2eymg91fh
+  林小丫 | 山神-人设-林小丫 | node_92gzcem62r
+  林根生 | 山神-人设-林根生 | node_cataaf5baa
+  林深 | 山神-人设-林深 | node_psx9c0jh0x
+  林石 | 山神-人设-林石 | node_jhzhhtpdnd
+  柴刀 | 山神-道具-柴刀 | node_vqxjy5pfs3
+  毛驴 | 山神-人设-毛驴 | node_03dhqz89rr
+  煤油灯 | 山神-道具-煤油灯 | node_yn3c4hwyvd
+  狼 | 山神-人设-狼 | node_n2gyk4mnzj
+  猎枪 | 山神-道具-猎枪 | node_68m9xb6r8x
+  王母 | 山神-人设-王母 | node_1z81jq6x05
+  王秀莲 | 山神-人设-王秀莲 | node_4kdsf1rg1z
+  珍味楼大厅 | 山神-场景-珍味楼大厅（日） | node_mftc1yj24w
+  算盘账本 | 山神-道具-算盘账本 | node_t331afqd89
+  索拨棍 | 山神-道具-索拨棍 | node_mdw63zvvf0
+  老陈 | 山神-人设-老陈 | node_fdzfr4t2za
+  背篓 | 山神-道具-背篓 | node_22x9ebbxsy
+  胡万山 | 山神-人设-胡万山 | node_hsfvm0wrth
+  胡万山家 | 山神-场景-胡万山家 | node_1gv09ffzqr
+  苏红秀 | 山神-人设-苏红秀 | node_hfxvymsmtp
+  药锄 | 山神-道具-药锄 | node_dpqctsw722
+  赵铁山 | 山神-人设-赵铁山 | node_ddgfm7tq5e
+  驴车 | 山神-道具-驴车 | node_ra0e68eyep
+  麻绳 | 山神-道具-麻绳 | node_2r0cz313ss
+==============================
+PROJECT 60091050-bd11-4633-8e3a-e08d201817a7
+name prefixes: {'人设': 9, '道具': 6, '场景': 4}
+  周彪 | 山神-人设-周彪 | node_fsv5fmpaef
+  山珍大会现场 | 山神-场景-山珍大会现场 | node_gp49m02rpd
+  山脚下 | 山神-场景-山脚下（日） | node_mgsxrv0vnr
+  林深 | 山神-人设-林深 | node_asymqzykq1
+  林石 | 山神-人设-林石 | node_eeyqqg8fs1
+  狍子 | 山神-人设-狍子 | node_kcah32f5b8
+  猎枪 | 山神-道具-猎枪 | node_zb0v61cfk3
+  老陈 | 山神-人设-老陈 | node_nd8z0pxf9a
+  背篓 | 山神-道具-背篓 | node_rmbxrbpdys
+  胡万山 | 山神-人设-胡万山 | node_zt7a6hg81z
+  胡万山家 | 山神-场景-胡万山家 | node_ma4kqswj94
+  苏红秀 | 山神-人设-苏红秀 | node_1f0e1d970m
+  药锄 | 山神-道具-药锄 | node_yxmmb30w04
+  赵铁山 | 山神-人设-赵铁山 | node_bwbbfck16k
+  野山参 | 山神-道具-野山参 | node_kvr0072cap
+  野猪 | 山神-人设-野猪 | node_pbze6g6rjg
+  长白山密林 | 山神-场景-长白山密林（日） | node_8ph96b75dr
+  驴车 | 山神-道具-驴车 | node_0pfy7payb6
+  麻绳 | 山神-道具-麻绳 | node_wrrm5pteew
+==============================
+PROJECT 3a4d01a4-053a-4254-b192-4e2ce198761e
+name prefixes: {'人设': 10, '道具': 3, '场景': 4}
+  周彪 | 山神-人设-周彪 | node_d2dtx5wby6
+  山珍大会现场 | 山神-场景-山珍大会现场 | node_rhjrmzws9e
+  村口大槐树下 | 山神-场景-村口大槐树下（日） | node_kee1qg47ed
+  林家堂屋 | 山神-场景-林家堂屋（日） | node_q3vkt7dhfc
+  林家院子 | 山神-场景-林家院子（日） | node_j84bds54nz
+  林根生 | 山神-人设-林根生 | node_n62pzt1c34
+  林深 | 山神-人设-林深 | node_btd13rd5tj
+  林石 | 山神-人设-林石 | node_t00nkvx3c3
+  毛驴 | 山神-人设-毛驴 | node_qy7wkh1rbr
+  老陈 | 山神-人设-老陈 | node_kwh07akhek
+  背篓 | 山神-道具-背篓 | node_n4kdjss74y
+  胡万山 | 山神-人设-胡万山 | node_zmyr2hcwy2
+  苏红秀 | 山神-人设-苏红秀 | node_4end8a236a
+  赵铁山 | 山神-人设-赵铁山 | node_pgdfz0g6hy
+  野山参 | 山神-道具-野山参 | node_aevemn3cx8
+  野猪 | 山神-人设-野猪 | node_rsw7yhcbbj
+  驴车 | 山神-道具-驴车 | node_0pszha7knt
+==============================
+PROJECT b1806fe9-2353-4be7-8208-3f22d7f73230
+name prefixes: {'人设': 12, '场景': 7, '道具': 5}
+  周彪 | 山神-人设-周彪 | node_jk9e29q71c
+  山珍大会现场 | 山神-场景-山珍大会现场 | node_nq21aqs76y
+  山脚下 | 山神-场景-山脚下（日） | node_mm2wmf7cz4
+  旱烟袋 | 山神-道具-旱烟袋 | node_6vc76pkj72
+  村口大槐树下 | 山神-场景-村口大槐树下（日） | node_9kxbbgn5a0
+  林家堂屋 | 山神-场景-林家堂屋（日） | node_gxzdz4awfg
+  林家院子 | 山神-场景-林家院子（日） | node_8hxpbbtq5r
+  林小丫 | 山神-人设-林小丫 | node_wrt2vmnhad
+  林根生 | 山神-人设-林根生 | node_wrg4weftzj
+  林深 | 山神-人设-林深 | node_jm5vas21vn
+  林石 | 山神-人设-林石 | node_rmqq41kzv2
+  煤油灯 | 山神-道具-煤油灯 | node_pa7jtyed6v
+  狼 | 山神-人设-狼 | node_12ay11kd92
+  猎枪 | 山神-道具-猎枪 | node_zv7xj3bqf3
+  王主任 | 山神-人设-王主任 | node_352k06v9vz
+  王秀莲 | 山神-人设-王秀莲 | node_skxkf12jz4
+  算盘账本 | 山神-道具-算盘账本 | node_5n8n53tdz5
+  老陈 | 山神-人设-老陈 | node_rbssc7bxdq
+  胡万山 | 山神-人设-胡万山 | node_1s2khpdfhg
+  胡万山家 | 山神-场景-胡万山家 | node_r5eajg4ec4
+  胡万山家书房 | 山神-场景-胡万山家书房 | node_23ma5sbwyr
+  苏红秀 | 山神-人设-苏红秀 | node_wr762nnt2x
+  赵铁山 | 山神-人设-赵铁山 | node_2cd4q5pn69
+  麻绳 | 山神-道具-麻绳 | node_np1zfryyfq
+==============================
+LIVE PROTECT
+canvas 11 total_nodes=228 statuses={'success': 62, 'empty': 166}
+canvas 21 total_nodes=163 statuses={'empty': 146, 'success': 17}
+canvas 31 total_nodes=185 statuses={'empty': 154, 'success': 31}
+canvas 41 total_nodes=176 statuses={'empty': 157, 'success': 19}
+canvas 51 total_nodes=132 statuses={'empty': 115, 'success': 17}
+canvas 61 total_nodes=210 statuses={'empty': 186, 'success': 24}

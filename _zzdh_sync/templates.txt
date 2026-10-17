@@ -1,0 +1,137 @@
+===== official (8)
+  id=10000 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=默认 - 即梦API
+      platform=默认
+      model=默认
+      content_len=1609
+  id=10001 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=默认 - Wan2.2
+      platform=默认
+      model=默认
+      content_len=2264
+  id=10002 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=4宫格
+      platform=默认
+      model=默认
+      content_len=2969
+  id=10003 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=6宫格
+      platform=默认
+      model=默认
+      content_len=3129
+  id=10004 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=9宫格
+      platform=默认
+      model=默认
+      content_len=3299
+  id=10005 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=润色样例(仅示范使用，需要润色请自行编写需要的提示词)
+      platform=默认
+      model=默认
+      content_len=201
+  id=10006 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=工作室爆量Wan2.2
+      platform=默认
+      model=默认
+      content_len=1142
+  id=10007 keys=['name', 'order', 'content', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=工作流爆量Sora2
+      platform=默认
+      model=默认
+      content_len=2172
+===== user (19)
+  id=1 keys=['name', 'order', 'content', 'platform', 'model', '_is_encrypted', '_encrypted_prompt_db_id', '_encrypted_prompt_runtime_id', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=即梦新版
+      platform=默认
+      model=默认
+      content_len=243
+  id=2 keys=['name', 'order', 'content', 'platform', 'model', '_is_encrypted', '_encrypted_prompt_db_id', '_encrypted_prompt_runtime_id', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=模板 10
+      platform=默认
+      model=默认
+      content_len=18003
+  id=3 keys=['name', 'order', 'content', 'platform', 'model', '_is_encrypted', '_encrypted_prompt_db_id', '_encrypted_prompt_runtime_id', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=即梦
+      platform=默认
+      model=默认
+      content_len=11573
+  id=4 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=Wan3.0-真人电影
+      platform=默认
+      model=默认
+      content_len=6
+  id=5 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=Wan3.0-3D国漫
+      platform=默认
+      model=默认
+      content_len=6
+  id=6 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=Wan3.0-2D动漫
+      platform=默认
+      model=默认
+      content_len=6
+  id=7 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3-官方格式-真人电影
+      platform=默认
+      model=默认
+      content_len=6
+  id=8 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3-官方格式-3D国漫
+      platform=默认
+      model=默认
+      content_len=6
+  id=9 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3-官方格式-2D动漫
+      platform=默认
+      model=默认
+      content_len=6
+  id=10 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3真人电影感
+      platform=默认
+      model=默认
+      content_len=6
+  id=11 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3国漫3D风格
+      platform=默认
+      model=默认
+      content_len=6
+  id=12 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=H3真人感
+      platform=默认
+      model=默认
+      content_len=6
+  id=13 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=即梦API——国漫3d高燃打斗动作链
+      platform=默认
+      model=默认
+      content_len=6
+  id=14 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=grok1.5首帧真人电影感
+      platform=默认
+      model=默认
+      content_len=6
+  id=15 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=grok1.5首帧国漫3d风
+      platform=默认
+      model=默认
+      content_len=6
+  id=16 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=grok1.5电影级真人故事版
+      platform=默认
+      model=默认
+      content_len=6
+  id=17 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=grok故事板
+      platform=默认
+      model=默认
+      content_len=6
+  id=18 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=即梦API-国漫3D
+      platform=默认
+      model=默认
+      content_len=6
+  id=19 keys=['name', 'content', '_is_encrypted', '_whitelist_encrypted', '_official_encrypted', '_encrypted_prompt_runtime_id', '_encrypted_prompt_db_id', 'order', 'platform', 'model', 'field_delimiter', 'record_delimiter', 'output_start', 'output_end']
+      name=即梦API-真人电影感
+      platform=默认
+      model=默认
+      content_len=6

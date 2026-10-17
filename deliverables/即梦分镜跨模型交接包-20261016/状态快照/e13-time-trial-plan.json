@@ -1,0 +1,664 @@
+{
+  "projectId": "e7ec7935-b916-4572-b38f-76cb899a0168",
+  "projectConfirmed": true,
+  "drama": "山神",
+  "episode": "13",
+  "promptSource": {
+    "mode": "model"
+  },
+  "settings": {
+    "model": "seedance_2.0_mini",
+    "mode": "m2v",
+    "ratio": "9:16",
+    "resolution": "720p",
+    "count": 1
+  },
+  "generate": false,
+  "shots": [
+    {
+      "shot": "1-01",
+      "scene": "1",
+      "title": "山神-13-1-01 责问规矩",
+      "duration": 9,
+      "prompt": "山神-13-1-01\n场景参考：{{node:node_7pnc7tcmqg}}，日 外 林家院子\n人物参考：{{node:node_anc40mzt0b}}\n总站位与初始状态：承接{{node:node_g7xm4cgnh3}}的实际尾帧后切到周彪单人反应；林深仍在画外右侧原位面向周彪，双方距离承接尾帧。周彪刚听见“卖了”，没有重复入场；机位留在院内关系线同侧。\n\n镜头01｜0—9秒\n景别：中景\n出镜人物：{{node:node_anc40mzt0b}}\n角度：平视\n画面：林深方向在画外右侧留白；{{node:node_anc40mzt0b}}瞪眼提高音量，连问谁准卖、规矩在哪，想用行规压住林深\n运镜：短推半步随周彪提高音量，停稳不越轴\n对白：{{node:node_anc40mzt0b}}，语气：瞪眼，说道{卖了？谁让你卖的？规矩呢？山货得先过我的手，你不懂？}\n音效：<院内风与近处衣料声；衣袖动作声>\n\n衔接落点：周彪逼视林深，身体尚未触碰他\n",
+      "visibleCharacters": [
+        "周彪"
+      ],
+      "assetKeys": [
+        "周彪",
+        "07_林家院子（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "卖了？谁让你卖的？规矩呢？山货得先过我的手，你不懂？",
+          "sourceDialogueIndex": 0
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "本集首条；与前集同场续接时由 root 核对实际尾帧。"
+      },
+      "coveredShots": [
+        "1-01"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_anc40mzt0b",
+        "node:node_g7xm4cgnh3"
+      ],
+      "nodeId": "node_9e841cb976",
+      "manualReview": false,
+      "updateId": "3244c15c-d88d-491f-80fa-fcd622acb028"
+    },
+    {
+      "shot": "1-02",
+      "scene": "1",
+      "title": "山神-13-1-02 彩礼话术",
+      "duration": 12,
+      "prompt": "山神-13-1-02\n场景参考：{{node:node_7pnc7tcmqg}}，日 外 林家院子\n人物参考：{{node:node_rw7ey66aam}}\n总站位与初始状态：{{node:node_rw7ey66aam}}站院中墙根前面向画外左侧周彪；王秀莲在周彪后方画外；{{node:node_rw7ey66aam}}在墙根前直视周彪，没有退后\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}\n角度：平视\n画面：朝周彪的画左留足视线空间；{{node:node_rw7ey66aam}}看着周彪突然笑了，顺势把卖货说成筹彩礼，语气轻松而说理完整\n运镜：固定，让忽然一笑改变话语气势\n对白：{{node:node_rw7ey66aam}}，语气：看着他，说道{彪哥，我多卖点钱，不也是为了早点把彩礼备齐，风风光光去提亲吗？彩礼不够，我着急。}\n音效：<院内风与近处衣料声；风声降低给对白>\n\n衔接落点：林深保持笑意，周彪在画外一时未接话\n",
+      "visibleCharacters": [
+        "林深"
+      ],
+      "assetKeys": [
+        "林深",
+        "07_林家院子（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "彪哥，我多卖点钱，不也是为了早点把彩礼备齐，风风光光去提亲吗？彩礼不够，我着急。",
+          "sourceDialogueIndex": 1
+        }
+      ],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "1-01",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "1-02"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_rw7ey66aam"
+      ],
+      "nodeId": "node_d51661d98e",
+      "manualReview": false,
+      "updateId": "3e394e51-3f41-4867-817b-4edf06732e11"
+    },
+    {
+      "shot": "1-03",
+      "scene": "1",
+      "title": "山神-13-1-03 秀莲追钱",
+      "duration": 12,
+      "prompt": "山神-13-1-03\n场景参考：{{node:node_7pnc7tcmqg}}，日 外 林家院子\n人物参考：{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}、{{node:node_rw7ey66aam}}\n总站位与初始状态：{{node:node_ks54rqdcd7}}从{{node:node_anc40mzt0b}}身后走到{{node:node_rw7ey66aam}}面前，林深仍站墙根前朝她；{{node:node_anc40mzt0b}}站林深面前一愣，{{node:node_ks54rqdcd7}}在周彪身后\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_ks54rqdcd7}}、{{node:node_rw7ey66aam}}、{{node:node_anc40mzt0b}}\n角度：平视\n画面：{{node:node_ks54rqdcd7}}眼睛亮起来挤到前面，拽住林深袖子急问钱和婚期；{{node:node_anc40mzt0b}}停在她后方\n运镜：短横移跟王秀莲挤过周彪，停在她抓袖处\n对白：{{node:node_ks54rqdcd7}}，语气：拽林深袖子，说道{林哥哥，我就知道你对我最好了。那钱呢？卖了多少？彩礼凑够了没？}\n音效：<院内风与近处衣料声；急脚步、抓衣袖轻响>\n\n衔接落点：王秀莲抓着林深袖口站在他面前，周彪在后侧旁观\n",
+      "visibleCharacters": [
+        "王秀莲",
+        "林深",
+        "周彪"
+      ],
+      "assetKeys": [
+        "王秀莲",
+        "林深",
+        "周彪",
+        "07_林家院子（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "林哥哥，我就知道你对我最好了。那钱呢？卖了多少？彩礼凑够了没？",
+          "sourceDialogueIndex": 2
+        }
+      ],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "1-02",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "1-03"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_ks54rqdcd7",
+        "node:node_anc40mzt0b",
+        "node:node_rw7ey66aam"
+      ],
+      "nodeId": "node_8c6deb2b7f",
+      "manualReview": false,
+      "updateId": "d5cc3b16-af10-4644-a2dd-9c56b85de4ff"
+    },
+    {
+      "shot": "2-01",
+      "scene": "2",
+      "title": "山神-13-2-01 花完了",
+      "duration": 6,
+      "prompt": "山神-13-2-01\n场景参考：{{node:node_xm5m75474s}}，日 内 林家堂屋\n人物参考：{{node:node_rw7ey66aam}}、{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_rw7ey66aam}}在屋内面对{{node:node_ks54rqdcd7}}，王秀莲靠门侧；{{node:node_anc40mzt0b}}坐侧边长凳；叙事过渡后三人进堂屋，{{node:node_anc40mzt0b}}坐长凳，{{node:node_ks54rqdcd7}}已经放开袖子\n\n镜头01｜0—6秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}、{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n角度：平视\n画面：{{node:node_rw7ey66aam}}平淡说花完了，{{node:node_ks54rqdcd7}}眼睛一下瞪大，不敢信地尖声追问\n运镜：固定，用两人反应落差替代夸张推脸\n对白：{{node:node_rw7ey66aam}}，语气：语气平淡，说道{花完了。}\n对白：{{node:node_ks54rqdcd7}}，语气：瞪大眼睛，说道{花完了？一车货你说花完了？！}\n音效：<堂屋脚步、长凳轻响；长凳余响后室内安静>\n\n衔接落点：林深仍平淡，王秀莲站在门侧盯他，周彪坐着黑脸\n",
+      "visibleCharacters": [
+        "林深",
+        "王秀莲",
+        "周彪"
+      ],
+      "assetKeys": [
+        "林深",
+        "王秀莲",
+        "周彪",
+        "05_林家堂屋（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "花完了。",
+          "sourceDialogueIndex": 3
+        },
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "花完了？一车货你说花完了？！",
+          "sourceDialogueIndex": 4
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "2-01"
+      ],
+      "refs": [
+        "node:node_xm5m75474s",
+        "node:node_rw7ey66aam",
+        "node:node_ks54rqdcd7",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_8620a7e1bf",
+      "manualReview": false,
+      "updateId": "1c715b42-f638-4c92-93bd-0be3faa082b6"
+    },
+    {
+      "shot": "2-02",
+      "scene": "2",
+      "title": "山神-13-2-02 家用解释",
+      "duration": 11,
+      "prompt": "山神-13-2-02\n场景参考：{{node:node_xm5m75474s}}，日 内 林家堂屋\n人物参考：{{node:node_rw7ey66aam}}\n总站位与初始状态：{{node:node_rw7ey66aam}}屋内面对画外左侧王秀莲，周彪在画外侧边长凳；{{node:node_rw7ey66aam}}面对门侧王秀莲，双手空着\n\n镜头01｜0—11秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}\n角度：平视\n画面：屋门方向留在画左；{{node:node_rw7ey66aam}}摊手不紧不慢解释父亲药、小丫病，嘴角仍挂笑；不让林根生和小丫因被提到就入画\n运镜：随摊手短后移扩大手部边界，再固定\n对白：{{node:node_rw7ey66aam}}，语气：摊了摊手，说道{没办法，家里穷了这么多年，爸的药不能断，小丫的病不能拖。我这不也是没办法嘛。}\n音效：<堂屋脚步、长凳轻响；摊手衣料响>\n\n衔接落点：林深双手放回身侧，仍朝王秀莲，未拿出任何钱\n",
+      "visibleCharacters": [
+        "林深"
+      ],
+      "assetKeys": [
+        "林深",
+        "05_林家堂屋（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "没办法，家里穷了这么多年，爸的药不能断，小丫的病不能拖。我这不也是没办法嘛。",
+          "sourceDialogueIndex": 5
+        }
+      ],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "2-01",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "2-02"
+      ],
+      "refs": [
+        "node:node_xm5m75474s",
+        "node:node_rw7ey66aam"
+      ],
+      "nodeId": "node_9e90910f94",
+      "manualReview": false,
+      "updateId": "59e6e081-8912-446e-a7a5-be503f1c2763"
+    },
+    {
+      "shot": "2-03",
+      "scene": "2",
+      "title": "山神-13-2-03 再谈婚期",
+      "duration": 12,
+      "prompt": "山神-13-2-03\n场景参考：{{node:node_xm5m75474s}}，日 内 林家堂屋\n人物参考：{{node:node_rw7ey66aam}}\n总站位与初始状态：{{node:node_rw7ey66aam}}屋内朝画外左侧门边王秀莲，周彪仍画外凳上；{{node:node_rw7ey66aam}}解释完家用，停顿望着王秀莲\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}\n角度：平视\n画面：王秀莲方向留画左视线空间；{{node:node_rw7ey66aam}}停一拍，眼里一丝嘲讽被笑意盖住，再轻松说等下回好货再谈\n运镜：短慢推捕捉嘲讽一闪即收，不变成面部特写\n对白：{{node:node_rw7ey66aam}}，语气：语气轻松，说道{秀莲，你别着急。等我下一回上山采到好货，卖了钱，咱们再谈彩礼婚期的事儿，行不行？}\n音效：<堂屋脚步、长凳轻响；短鼻息与室内衣料声>\n\n衔接落点：林深仍笑着看王秀莲，婚期没有落实\n",
+      "visibleCharacters": [
+        "林深"
+      ],
+      "assetKeys": [
+        "林深",
+        "05_林家堂屋（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "秀莲，你别着急。等我下一回上山采到好货，卖了钱，咱们再谈彩礼婚期的事儿，行不行？",
+          "sourceDialogueIndex": 6
+        }
+      ],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "2-02",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "2-03"
+      ],
+      "refs": [
+        "node:node_xm5m75474s",
+        "node:node_rw7ey66aam"
+      ],
+      "nodeId": "node_cec1882287",
+      "manualReview": false,
+      "updateId": "b23398ab-3b77-4c29-b09b-88be642fdd10"
+    },
+    {
+      "shot": "2-04",
+      "scene": "2",
+      "title": "山神-13-2-04 一个月",
+      "duration": 15,
+      "prompt": "山神-13-2-04\n场景参考：{{node:node_xm5m75474s}}，日 内 林家堂屋\n人物参考：{{node:node_ks54rqdcd7}}、{{node:node_rw7ey66aam}}、{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_ks54rqdcd7}}靠门面对{{node:node_rw7ey66aam}}，林深屋内面对她；{{node:node_rw7ey66aam}}朝门口{{node:node_anc40mzt0b}}与{{node:node_ks54rqdcd7}}；周彪已从凳子起身和王秀莲并列面他；{{node:node_ks54rqdcd7}}站门侧压不住焦急，{{node:node_rw7ey66aam}}仍在屋内\n\n镜头01｜0—7秒\n景别：中景\n出镜人物：{{node:node_ks54rqdcd7}}、{{node:node_rw7ey66aam}}\n角度：平视\n画面：{{node:node_ks54rqdcd7}}追问具体时候；{{node:node_rw7ey66aam}}故意慢些说半个月或一个月；{{node:node_ks54rqdcd7}}破防尖声重复一个月\n运镜：固定，保留追问、故意回答和破防的节奏差\n对白：{{node:node_ks54rqdcd7}}，语气：追问，说道{那得什么时候？}\n对白：{{node:node_rw7ey66aam}}，语气：故意，说道{可能半个月，也可能一个月？}\n对白：{{node:node_ks54rqdcd7}}，语气：破防尖声，说道{一个月！}\n音效：<堂屋脚步、长凳轻响；王秀莲急促吸气>\n\n接续状态：{{node:node_anc40mzt0b}}从长凳起身，{{node:node_ks54rqdcd7}}站门侧，{{node:node_rw7ey66aam}}在屋内\n镜头02｜7—15秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}、{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n角度：平视\n画面：{{node:node_rw7ey66aam}}微笑而冷淡地下逐客话；{{node:node_anc40mzt0b}}黑脸朝门口退，王秀莲跟着，不让台词变道歉\n运镜：随林深转向门口短摇，终点留二人退向门外的余量\n对白：{{node:node_rw7ey66aam}}，语气：语气客气，说道{周哥，秀莲，天不早了，我就不留你们了。慢走。}\n音效：<堂屋脚步、长凳轻响；凳脚轻刮，退步脚声>\n\n衔接落点：周彪王秀莲已退到门槛外，林深留屋内扶门\n",
+      "visibleCharacters": [
+        "王秀莲",
+        "林深"
+      ],
+      "assetKeys": [
+        "王秀莲",
+        "林深",
+        "05_林家堂屋（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "那得什么时候？",
+          "sourceDialogueIndex": 7
+        },
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "可能半个月，也可能一个月？",
+          "sourceDialogueIndex": 8
+        },
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "一个月！",
+          "sourceDialogueIndex": 9
+        },
+        {
+          "speaker": "林深",
+          "kind": "dialogue",
+          "text": "周哥，秀莲，天不早了，我就不留你们了。慢走。",
+          "sourceDialogueIndex": 10
+        }
+      ],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "2-03",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "2-04",
+        "2-05"
+      ],
+      "refs": [
+        "node:node_xm5m75474s",
+        "node:node_ks54rqdcd7",
+        "node:node_rw7ey66aam",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_bf73806448",
+      "manualReview": false,
+      "updateId": "7204732e-0b3e-4c04-b1bd-2ddc6591440b"
+    },
+    {
+      "shot": "2-06",
+      "scene": "2",
+      "title": "山神-13-2-06 门隔两人",
+      "duration": 4,
+      "prompt": "山神-13-2-06\n场景参考：{{node:node_xm5m75474s}}（堂屋门内）与{{node:node_7pnc7tcmqg}}（门外院内），日间同一出入口\n人物参考：{{node:node_rw7ey66aam}}、{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_rw7ey66aam}}在门内朝外关门，{{node:node_ks54rqdcd7}}在门外近门处，{{node:node_anc40mzt0b}}在她侧后；{{node:node_anc40mzt0b}}{{node:node_ks54rqdcd7}}都已在门槛外，{{node:node_rw7ey66aam}}在门内扶门\n\n镜头01｜0—4秒\n景别：中景\n出镜人物：{{node:node_rw7ey66aam}}、{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n角度：平视\n画面：木门砰地合上，门板几乎擦到王秀莲鼻尖；她本能往后收头，周彪停住\n运镜：固定，不让门板穿过任何身体\n音效：<堂屋脚步、长凳轻响；木门一声重响>\n\n衔接落点：门已关牢，二人全在外，林深隐于门后不再出镜\n",
+      "visibleCharacters": [
+        "林深",
+        "周彪",
+        "王秀莲"
+      ],
+      "assetKeys": [
+        "林深",
+        "周彪",
+        "王秀莲",
+        "05_林家堂屋（日）"
+      ],
+      "dialogues": [],
+      "continuity": {
+        "method": "actual-tail-required-before-generation",
+        "needsPreviousState": true,
+        "previousShot": "2-05",
+        "reason": "同场景同画布超15秒自然拆分，生成前须接上段实际成功视频尾帧。"
+      },
+      "coveredShots": [
+        "2-06"
+      ],
+      "refs": [
+        "node:node_xm5m75474s",
+        "node:node_7pnc7tcmqg",
+        "node:node_rw7ey66aam",
+        "node:node_ks54rqdcd7",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_89850e18bf",
+      "manualReview": false,
+      "updateId": "02b50ded-178a-41d3-b691-2f6315a24da2"
+    },
+    {
+      "shot": "3-01",
+      "scene": "3",
+      "title": "山神-13-3-01 门外骂声",
+      "duration": 11,
+      "prompt": "山神-13-3-01\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_ks54rqdcd7}}朝门板，{{node:node_anc40mzt0b}}侧后朝同一扇门，两人不离门外；{{node:node_ks54rqdcd7}}收头站关着的门前，{{node:node_anc40mzt0b}}在侧后\n\n镜头01｜0—11秒\n景别：中景\n出镜人物：{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n角度：平视\n画面：{{node:node_ks54rqdcd7}}指门板气得跺脚，骂林深敢关门；{{node:node_anc40mzt0b}}咬牙低声压怒\n运镜：随王秀莲跺脚小幅下摇再回面部，收在周彪\n对白：{{node:node_ks54rqdcd7}}，语气：声音尖利，说道{他……他敢把我关在门外？！反了他了！他林深算个什么东西！敢这么对我！}\n对白：{{node:node_anc40mzt0b}}，语气：咬着牙，说道{这小子……越来越不像话了。}\n音效：<门外风声、鞋踏地面；一跺脚和门前衣料声>\n\n衔接落点：王秀莲手放低转向周彪，周彪仍盯闭门\n",
+      "visibleCharacters": [
+        "王秀莲",
+        "周彪"
+      ],
+      "assetKeys": [
+        "王秀莲",
+        "周彪",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "他……他敢把我关在门外？！反了他了！他林深算个什么东西！敢这么对我！",
+          "sourceDialogueIndex": 11
+        },
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "这小子……越来越不像话了。",
+          "sourceDialogueIndex": 12
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-01"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_ks54rqdcd7",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_379c9b07bf",
+      "manualReview": false,
+      "updateId": "2ac564c6-8845-4495-82b4-5df86c6b1fe3"
+    },
+    {
+      "shot": "3-02",
+      "scene": "3",
+      "title": "山神-13-3-02 婚事恐惧",
+      "duration": 8,
+      "prompt": "山神-13-3-02\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_ks54rqdcd7}}\n总站位与初始状态：{{node:node_ks54rqdcd7}}门前身体转朝画外右侧周彪；周彪在门侧面对她；{{node:node_ks54rqdcd7}}刚停止骂门，目光转向周彪\n\n镜头01｜0—8秒\n景别：中景\n出镜人物：{{node:node_ks54rqdcd7}}\n角度：平视\n画面：{{node:node_ks54rqdcd7}}声音发颤，问是不是不想娶；眼睛从闭门移到周彪脸上求答案\n运镜：小幅推近随她从怒转怕，不到面部特写\n对白：{{node:node_ks54rqdcd7}}，语气：声音发颤，说道{彪哥……你说……你说他是不是……不想娶我了？}\n音效：<门外风声、鞋踏地面；风声与压住的呼吸>\n\n衔接落点：王秀莲望着周彪，恐惧已压过怒气\n",
+      "visibleCharacters": [
+        "王秀莲"
+      ],
+      "assetKeys": [
+        "王秀莲",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "彪哥……你说……你说他是不是……不想娶我了？",
+          "sourceDialogueIndex": 13
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-02"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_ks54rqdcd7"
+      ],
+      "nodeId": "node_3aada79eac",
+      "manualReview": false,
+      "updateId": "bcb5d841-35db-4743-8cac-51637dda295d"
+    },
+    {
+      "shot": "3-03",
+      "scene": "3",
+      "title": "山神-13-3-03 孩子怎么办",
+      "duration": 12,
+      "prompt": "山神-13-3-03\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_ks54rqdcd7}}门前朝{{node:node_anc40mzt0b}}；周彪站在门边身体向她、头还朝门；{{node:node_ks54rqdcd7}}望着周彪等答案，{{node:node_anc40mzt0b}}皱眉盯门未说话\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_ks54rqdcd7}}、{{node:node_anc40mzt0b}}\n角度：平视\n画面：{{node:node_anc40mzt0b}}沉默；{{node:node_ks54rqdcd7}}越说越怕，声音带哭腔问孩子与自己的处境，不新增孕肚特写\n运镜：固定，留住周彪无回应和她越说越小声的落差\n对白：{{node:node_ks54rqdcd7}}，语气：越说越害怕，说道{他要是真不想娶我了……我肚子里的孩子怎么办？我怎么办？全村人不都得笑话死我？}\n音效：<门外风声、鞋踏地面；衣角被攥紧的摩擦声>\n\n衔接落点：王秀莲眼中欲泪，周彪终于把头从门转向她\n",
+      "visibleCharacters": [
+        "王秀莲",
+        "周彪"
+      ],
+      "assetKeys": [
+        "王秀莲",
+        "周彪",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "他要是真不想娶我了……我肚子里的孩子怎么办？我怎么办？全村人不都得笑话死我？",
+          "sourceDialogueIndex": 14
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-03"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_ks54rqdcd7",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_ebf96bec12",
+      "manualReview": false,
+      "updateId": "e7453aa9-9cc7-4f31-86af-c3686af8d9a4"
+    },
+    {
+      "shot": "3-04",
+      "scene": "3",
+      "title": "山神-13-3-04 赌气解释",
+      "duration": 11,
+      "prompt": "山神-13-3-04\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n总站位与初始状态：{{node:node_anc40mzt0b}}与{{node:node_ks54rqdcd7}}都在门外相对，门在他们侧后；{{node:node_anc40mzt0b}}刚从门板转头看王秀莲\n\n镜头01｜0—11秒\n景别：中景\n出镜人物：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n角度：平视\n画面：{{node:node_anc40mzt0b}}压低声音用赌气解释，像分析也像安慰；{{node:node_ks54rqdcd7}}抬头眼泪打转追问赌什么\n运镜：短横移把重心从关门移到二人，不跨轴\n对白：{{node:node_anc40mzt0b}}，语气：低声，说道{别慌。这小子……我看他不是不想娶你。他这是在赌气呢。}\n对白：{{node:node_ks54rqdcd7}}，语气：抬起头，说道{赌气？赌什么气？}\n音效：<门外风声、鞋踏地面；门外风声持续>\n\n衔接落点：两人相对站着，周彪的话只是猜测，王秀莲仍不安\n",
+      "visibleCharacters": [
+        "周彪",
+        "王秀莲"
+      ],
+      "assetKeys": [
+        "周彪",
+        "王秀莲",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "别慌。这小子……我看他不是不想娶你。他这是在赌气呢。",
+          "sourceDialogueIndex": 15
+        },
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "赌气？赌什么气？",
+          "sourceDialogueIndex": 16
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-04"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_anc40mzt0b",
+        "node:node_ks54rqdcd7"
+      ],
+      "nodeId": "node_3b6ad4c824",
+      "manualReview": false,
+      "updateId": "daffccdf-abd1-442a-905e-b31e2fae8db7"
+    },
+    {
+      "shot": "3-05",
+      "scene": "3",
+      "title": "山神-13-3-05 替林深找理由上",
+      "duration": 11,
+      "prompt": "山神-13-3-05\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_anc40mzt0b}}\n总站位与初始状态：{{node:node_anc40mzt0b}}门边面向画外右侧王秀莲，林深在闭门后不出现；{{node:node_anc40mzt0b}}在门外面对王秀莲\n\n镜头01｜0—11秒\n景别：中景\n出镜人物：{{node:node_anc40mzt0b}}\n角度：平视\n画面：画右为王秀莲方向留白；{{node:node_anc40mzt0b}}咬牙后阴鸷地举上次被拒的事，不放亲密闪回，不替林深认定动机\n运镜：固定，保住故作笃定的语气\n对白：{{node:node_anc40mzt0b}}，语气：咬了咬牙，说道{你忘了？上次你自己送上门，他反倒端起来了，说什么要等成亲后。}\n音效：<门外风声、鞋踏地面；低声说话与衣料声>\n\n衔接落点：周彪目光停在王秀莲脸上，解释还未说完\n",
+      "visibleCharacters": [
+        "周彪"
+      ],
+      "assetKeys": [
+        "周彪",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "你忘了？上次你自己送上门，他反倒端起来了，说什么要等成亲后。",
+          "sourceDialogueIndex": 17
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-05"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_anc40mzt0b"
+      ],
+      "nodeId": "node_c60bb94dfd",
+      "manualReview": false,
+      "updateId": "5a25e4be-7fd1-4f5b-bf57-a2587b7ea46f"
+    },
+    {
+      "shot": "3-06",
+      "scene": "3",
+      "title": "山神-13-3-06 替林深找理由下",
+      "duration": 12,
+      "prompt": "山神-13-3-06\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n总站位与初始状态：{{node:node_anc40mzt0b}}门边朝{{node:node_ks54rqdcd7}}，王秀莲在门前一步面对他；{{node:node_anc40mzt0b}}面对王秀莲继续分析，{{node:node_ks54rqdcd7}}仍含泪\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n角度：平视\n画面：{{node:node_anc40mzt0b}}说是故意让人着急；{{node:node_ks54rqdcd7}}先一愣后恍然，咬唇带恨骂记仇；不演成她发现真实证据\n运镜：缓缓移向王秀莲，停在她恐惧变气愤\n对白：{{node:node_anc40mzt0b}}，语气：咬了咬牙，说道{他这是记恨着呢，故意给你脸色看，故意说钱花完了，就是想让咱们着急。}\n对白：{{node:node_ks54rqdcd7}}，语气：咬着嘴唇，说道{林深这个小心眼儿的东西！他就这么记仇？}\n音效：<门外风声、鞋踏地面；风声未断>\n\n衔接落点：王秀莲已把恐惧换成气愤，周彪见她接受说法\n",
+      "visibleCharacters": [
+        "周彪",
+        "王秀莲"
+      ],
+      "assetKeys": [
+        "周彪",
+        "王秀莲",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "他这是记恨着呢，故意给你脸色看，故意说钱花完了，就是想让咱们着急。",
+          "sourceDialogueIndex": 17
+        },
+        {
+          "speaker": "王秀莲",
+          "kind": "dialogue",
+          "text": "林深这个小心眼儿的东西！他就这么记仇？",
+          "sourceDialogueIndex": 18
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-06"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_anc40mzt0b",
+        "node:node_ks54rqdcd7"
+      ],
+      "nodeId": "node_29d815351e",
+      "manualReview": false,
+      "updateId": "14ebf78f-dcb5-449c-8875-e55ecfa76656"
+    },
+    {
+      "shot": "3-07",
+      "scene": "3",
+      "title": "山神-13-3-07 误判收尾",
+      "duration": 12,
+      "prompt": "山神-13-3-07\n场景参考：{{node:node_7pnc7tcmqg}}，日，外，林家院子里的堂屋门外\n人物参考：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n总站位与初始状态：{{node:node_anc40mzt0b}}门旁面向{{node:node_ks54rqdcd7}}，王秀莲在其侧前；林家门仍在二人身后关闭；{{node:node_ks54rqdcd7}}气愤地看周彪，{{node:node_anc40mzt0b}}与她面对面\n\n镜头01｜0—12秒\n景别：中景\n出镜人物：{{node:node_anc40mzt0b}}、{{node:node_ks54rqdcd7}}\n角度：平视\n画面：{{node:node_anc40mzt0b}}冷笑拍她肩，自信分析林深在拿捏人，眼底一丝阴狠；{{node:node_ks54rqdcd7}}听着不加新话\n运镜：随拍肩短推半步，保持肩手与两人可见\n对白：{{node:node_anc40mzt0b}}，语气：冷笑一声，说道{男人嘛，都好面子。他就是想拿捏咱们一下，让咱们低个头。咱们不跟他一般见识。}\n音效：<门外风声、鞋踏地面；手落肩头的布料轻响>\n\n衔接落点：周彪手从肩收回，二人仍站门外，自信的判断没有被剧情证实\n",
+      "visibleCharacters": [
+        "周彪",
+        "王秀莲"
+      ],
+      "assetKeys": [
+        "周彪",
+        "王秀莲",
+        "林家门口（日）"
+      ],
+      "dialogues": [
+        {
+          "speaker": "周彪",
+          "kind": "dialogue",
+          "text": "男人嘛，都好面子。他就是想拿捏咱们一下，让咱们低个头。咱们不跟他一般见识。",
+          "sourceDialogueIndex": 19
+        }
+      ],
+      "continuity": {
+        "method": "new-scene",
+        "needsPreviousState": false,
+        "previousShot": null,
+        "reason": "换场建立空间，不强制接帧。"
+      },
+      "coveredShots": [
+        "3-07"
+      ],
+      "refs": [
+        "node:node_7pnc7tcmqg",
+        "node:node_anc40mzt0b",
+        "node:node_ks54rqdcd7"
+      ],
+      "nodeId": "node_8c0a356212",
+      "manualReview": false,
+      "updateId": "bbd3198e-50f3-4821-95c4-851dd105512f"
+    }
+  ]
+}

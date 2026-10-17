@@ -1,0 +1,211 @@
+======== 2026-10-16T02:14:05.291Z [user] len=3297
+# AGENTS.md instructions for C:\Users\EDY\Documents\ChatGPT\即梦
+
+<INSTRUCTIONS>
+# 即梦工作区：执行约定
+
+仅适用于本工作区的即梦分镜/素材任务，不改变其他项目或全局设置。用户最新明确要求优先。不要修改原结果页/UI来实现Agent工作流。
+
+## 默认快速执行
+
+- 已确认项目、镜头范围和参数后直接执行，不反复展示方案或索取重复确认。内部保留必要判断，但不向用户展开长篇分析。
+- 常规过程不逐步播报、不展示命令或内部校验细节；完成时只给结果、入口、必要风险。正式分镜的完整内容仍交付到可访问文件并给链接，不用简报冒充完整稿，也不强迫用户逐段阅读或批准已授权的草稿修订。
+- 不为每镜重新开发脚本；优先复用已验证的调用、缓存和状态文件。相同上下文内完整读取且未变化的Skill/模块可以复用，不因镜号变化重读全部文档。新会话/压缩只剩摘要/文件变化时重新加载相关原文。
+
+## 按剪辑关系决定连续性，禁止机械抽帧
+
+- **换场景或明确时间跳跃**：重新建立本场必要人物关系；不继承上一场画面坐标、姿势与机位，不为跨场衔接抽帧。
+- **普通对话反打、反应镜、物件插镜后切回、人物视点切换**：默认不抽帧、不上传衔接图；只维护剧情顺序、关键空间关系和道具归属。回切不等于必须复刻前镜构图，也不意味着人物可以无依据瞬移。
+- **同一动作跨镜、物件交接/接触、连续运动，或用户明确要求首尾对齐**：才检查相邻实际产物。先看结束前约0.3秒的一帧；模糊或关键动作不清时再补最多两帧，不默认遍历整段。
+- 只把影响观众理解的站位写清楚。新场景可重新调度；连续互动用简短、具体的相互关系即可，不编精确坐标或重复全场站位。对白/互动镜仍保留写作Skill要求的站位字段，不能因提速省掉必要对象方向。
+- 抽帧检查、上传参考、绑定下一镜是三个不同决策。即使检查了尾帧，也不默认需要上传，更不能把不合适的尾帧强当首帧。
+
+## 不可省略的边界
+
+- **已经生成的视频不二次生成。** 先回读节点；已有产物或已有运行任务的只读检查，不覆盖、不清空、不重建、不换任务ID再提交。发现生成效果偏差，优先调整尚未生成的下一镜；真正阻塞则报告，不擅自返工已生成镜头。
+- 报价、授权额度、项目/主体歧义、权限问题、用户改稿冲突和任务状态不确定仍须处理；“直接执行”不是批准任意积分，也不是跳过读取Skill、项目核对或服务端验收。
+- 生成与草稿保存分开。草稿Skill始终不生成；实际生成按用户批准的镜头范围、数量与积分上限执行。派发前持久化稳定submitId，提交后只查询原任务，不因超时/unknown/absent重发。
+- 不声称“未分析就保证正确”，不把一张尾帧说成整段视频验收，不把接口成功说成创作效果通过。
+
+## Skill与本项目恢复入口
+
+- 草稿：`C:/Users/EDY/.codex/skills/dreamina-storyboard-drafts/SKILL.md`。
+- 写作：`C:/Users/EDY/Documents/Codex/2026-10-09/kan/work/hermes_skills/media-storyboard-design/storyboard-prompt-generation-final/SKILL.md`。完整读入口、核心导演及任务命中的模块；不批量加载无关Skill。缺失则说明，不冒称加载。
+- CLI：`C:/Users/EDY/.agents/skills/dreamina-canvas-cli/SKILL.md`。先用当前CLI验证命令/参数；同一已核验release与任务中复用发现结果，变化或能力报错时刷新，不重复无用探测。
+- 《山神赐我透视眼》第10集：画布 `8464682f-9531-4587-9a32-2b91c74317b7`，现名以服务端为准。此身份仅用于用户确认的本剧本集续作，不作为其他剧默认画布。
+- 已确认本项目参数：`seedance_2.0_mini` / `m2v` / `9:16` / `720p` / 数量1 / 时长按内容4–15整数秒；首行 `山神-10-{场次-镜号}`。切换Agent模型不等于更改视频参
+
+======== 2026-10-16T02:14:05.316Z [user] len=398
+
+<in-app-browser-context source="ambient-ui-state">
+This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser.
+# In app browser:
+- The user has the in-app browser open with 1 tab.
+- Current URL: http://127.0.0.1:8766/
+</in-app-browser-context>
+
+## My request:
+按建议来  
+
+
+======== 2026-10-16T02:14:37.039Z [assistant] len=1023
+<｜｜DSML｜｜ calls>
+<｜｜DSML｜｜ invoke name="exec_command">
+<｜｜DSML｜｜ parameter name="cmd" string="true">[Console]::OutputEncoding=[Text.Encoding]::UTF8; $env:PYTHONIOENCODING='utf-8'
+$py="D:\字字动画_9_0_9(1)\字字动画_9_0_9\_internal\python-3.12\python.exe"
+& $py -c @"
+import sys,json,os,time
+sys.path.insert(0,r'C:\Users\EDY\Documents\ChatGPT\即梦\_zzdh_sync')
+import api
+r=api.call('zzdh_get_entity_list',{'entity_type':'location'})
+es=r['entities']
+print('total',len(es),'with_img',sum(1 for e in es if e['image_path']))
+for e in es:
+    print('#%-3s %-16s img=%s refs=%d extra=%d' % (e['location_id'],e['name'],bool(e['image_path']),len(e.get('reference_items') or []),len(e['extra_images'])))
+p=r'D:\字字动画_9_0_9(1)\字字动画_9_0_9\工作目录\默认\10月15日\locations.json'
+print('locations.json mtime',time.strftime('%H:%M:%S',time.localtime(os.path.getmtime(p))),os.path.getsize(p))
+"@</｜｜DSML｜｜ parameter>
+<｜｜DSML｜｜ parameter name="workdir" string="true">C:\Users\EDY\Documents\ChatGPT\即梦</｜｜DSML｜｜ parameter>
+</｜｜DSML｜｜ invoke>
+</｜｜DSML｜｜ calls>
+
+======== 2026-10-16T02:14:41.632Z [assistant] len=30
+我先快速恢复一下之前的同步方案和相关状态，再按那个建议继续。
+
+======== 2026-10-16T02:15:26.540Z [assistant] len=41
+状态已经对上了——上一步的批量其实已经执行完，我把当前实际情况做一次实时读回确认。
+
+======== 2026-10-16T02:16:36.432Z [assistant] len=43
+我先把刚才的临时文件清掉，再确认一下"写提示词/时长/衔接"那件事在字字动画里的落点。
+
+======== 2026-10-16T02:17:20.789Z [assistant] len=4575
+# Handoff Summary — 字字动画 场景同步 + 提示词/时长/衔接任务
+
+## 用户与工作区
+- cwd: `C:\Users\EDY\Documents\ChatGPT\即梦`，PowerShell，无沙箱限制。
+- 工作区 AGENTS.md 已加载（即梦分镜/素材任务约定：先确认项目与映射、dry-run、官方读回、不消耗积分、已生成视频不重做）。
+- 用户偏好：迁移前确认项目/映射/命名；先样例验证再批量；不乱花积分；完成报告给结果+入口+风险。
+
+## 目标 1：本地场景资产同步进「字字动画」（字字动画/ZiziGenerator）
+**已完成，16/16 成功。**
+
+- 软件路径：`D:\字字动画_9_0_9(1)\字字动画_9_0_9`
+- 当前作品：**重回80我有了山神系统**，项目目录 `工作目录\默认\10月15日`
+- 用户此前已回「按建议来」→ 按提案执行：**13 个复用已有场景 + 3 个新建**。
+- 新建 3 个（对不上的）：
+  - #20 深山小径 ← `04_深山小径（日）`
+  - #21 刘淑芳家卧室 ← `09_刘淑芳家卧室（夜）`
+  - #22 林辰帐篷 ← `11_林辰帐篷（夜）`
+- 复用 13 个：01→#5深山老林、02→#4山底路口、03→#1刘淑芳家屋内、05→#15雪山冰崖、06→#9林家院子、07→#16王建华办公室、08→#7山海珍酒店、10→#13林家堂屋、12→#14吴长贵扎营地、13→#10迷障区、14→#8济世药房、15→#3镇卫生院走廊、16→#17青山种植基地
+- 每个场景挂了 **主图 + `_反打.png`**（main + 1 extra）。本地每个场景目录含「主图.png」+「主图_反打.png」，共 16×2=32 张。
+- 未处理（本地本批无对应图）：#2 山崖边缘、#11 沈清荷办公室、#12 吴长贵家门口、#18 医院手术室外。
+- 本次**不涉及** 道具/动物/人设 目录，也不生成任何图/视频（零积分）。
+
+### 实时读回结果（本回合已核验）
+21 个 location，16 个有图，全部 main+extra 正确：
+```
+#1 刘淑芳家屋内(堂屋日)  #3 镇卫生院走廊  #4 山底路口  #5 深山老林
+#7 山海珍酒店  #8 济世药房  #9 林家院子  #10 迷障区  #13 林家堂屋
+#14 吴长贵扎营地  #15 雪山冰崖  #16 王建华办公室  #17 青山种植基地
+#20 深山小径(new)  #21 刘淑芳家卧室(new)  #22 林辰帐篷(new=林辰帐篷夜)
+```
+- `locations.json` mtime=2026-10-16 10:14:33，size=18836，21 条、16 条含 refs。
+- 备份在项目目录：`locations.json.bak-20261015-181923`、`.bak-sync-20261016-101432`、`.bak-zzdhsync`。
+- 缩略图已由软件生成：`工作目录\默认\10月15日\thumbnails_500\`（34 个，其中 16 个是本批场景）。
+
+### 关键接口/机制（已验证）
+- 主接口：`POST http://127.0.0.1:8766/v1/tools/call`，body `{"name":"zzdh_xxx","arguments":{...}}`（**不是** jsonrpc），含中文路径必须 `charset=utf-8` + UTF-8 字节。
+- 内置 Python（读写 JSON）：`D:\字字动画_9_0_9(1)\字字动画_9_0_9\_internal\python-3.12\python.exe`
+- CLI（`_internal\skills\字字动画Skill\zzdh-cli.js`）**只能读实体，不能增改**。
+- 挂图机制：`zzdh_create_entity.image_path` 接受任意绝对路径；对**已有**实体，`zzdh_update_entity.image_path` 拒绝任意路径（`图片不属于当前实体的候选或已有素材`）→ 改为直接改写作品目录
+
+======== 2026-10-16T02:19:20.428Z [assistant] len=6298
+# Handoff Summary — 字字动画（ZiziGenerator）任务
+
+## 用户与工作区
+- cwd: `C:\Users\EDY\Documents\ChatGPT\即梦`；PowerShell；无沙箱限制；当前日期 2026-10-16。
+- 工作区 AGENTS.md 已加载，关键约束：
+  - 已确认项目/镜头/参数后直接执行，不反复确认。
+  - 生成与草稿分开；本任务只写提示词/时长/衔接，**不生成、不花积分**。
+  - 已生成视频不重做、不覆盖、不重建。
+  - 迁移/同步前先 dry-run + 官方读回；歧义映射/prompt 冲突须问用户。
+  - 正式分镜项目是《山神赐我透视眼》，**不要**把《重回80》剧情/角色混入山神项目。
+- 用户偏好：先小样验证再批量；报告结果+入口+风险；不展示内部命令细节。
+
+## 目标与当前状态
+
+### 目标 1：本地场景资产同步进字字动画 —— **已完成 16/16**
+- 软件路径：`D:\字字动画_9_0_9(1)\字字动画_9_0_9`
+- 运行中：ZiziGenerator.exe 多进程；HTTP API 已在线（`http://127.0.0.1:8766/` 返回 200）。
+- 当前作品：**重回80我有了山神系统**，项目目录 `工作目录\默认\10月15日`。
+- 用户此前「按建议来」= 13 个复用已有场景 + 3 个新建。
+- 新建 3 个：
+  - #20 深山小径 ← `04_深山小径（日）`
+  - #21 刘淑芳家卧室 ← `09_刘淑芳家卧室（夜）`
+  - #22 林辰帐篷 ← `11_林辰帐篷（夜）`
+- 复用 13 个：01→#5深山老林、02→#4山底路口、03→#1刘淑芳家屋内、05→#15雪山冰崖、06→#9林家院子、07→#16王建华办公室、08→#7山海珍酒店、10→#13林家堂屋、12→#14吴长贵扎营地、13→#10迷障区、14→#8济世药房、15→#3镇卫生院走廊、16→#17青山种植基地。
+- 每个场景挂 **主图 + `_反打.png`**（main+1 extra）；本地 16 个场景目录 × 2 张 = 32 张图。
+- **本回合实时读回确认**（写入 `_zzdh_sync\readback.txt`）：21 个 location，16 个有图，main+extra=1 全部正确。
+- 未处理（本地本批无对应图，仍为空）：#2 山崖边缘、#11 沈清荷办公室、#12 吴长贵家门口、#18 医院手术室外；另有 #6 山下小路也无图。**没有生成任何图片/视频，零积分。**
+- 产出：
+  - `C:\Users\EDY\Documents\ChatGPT\即梦\_zzdh_sync\scenes_in_app_sheet.jpg`（软件内缩略图拼的验收图，1280×1480，含编号/名称/映射，新建项标★）
+  - `...\_zzdh_sync\scenes_contact_sheet.jpg`（本地源图拼图）
+  - `...\_zzdh_sync\do_sync.py`、`plan.py`、`apply.py`、`api.py`、`plan_rows.json`、`locations_index.txt`、`sync_run.log`
+  - `...\_zzdh_sync\readback.txt`（本回合读回：21 location + 426 panels 原始 JSON）
+  - `...\_zzdh_sync\panels_summary.txt`（426 分镜摘要）
+  - `...\_zzdh_sync\doc_titles.txt`、`doc_cards.txt`、`templates.txt`（软件文档/模板清单）
+- 项目目录备份：`locations.json.bak-20261015-181923`、`.bak-sync-20261016-101432`、`.bak-zzdhsync`。
+- 缩略图目录：`工作目录\默认\10月15日\thumbnails_500\`（34 个，其中 16 个本批场景）。
+
+### 目标 2：把流程自动写进提示词、控制分镜时长
+
+======== 2026-10-16T02:19:26.510Z [assistant] len=20
+我先快速确认一下当前状态，避免重复动作。
+
+======== 2026-10-16T02:19:36.782Z [assistant] len=52
+状态确认完毕。我先看一下上次已经抓到的软件文档要点和分镜现状，好把"时长 + 衔接"的默认口径定得靠谱。
+
+======== 2026-10-16T02:19:58.370Z [assistant] len=35
+让我看一下第1、3镜已有的提示词——那应该就是"那个流程"的既有格式。
+
+======== 2026-10-16T02:20:11.858Z [assistant] len=52
+这就对上了——第1、3镜已经是标准"那个流程"的产物。我去读一份该流程的写作规范，确认时长和衔接的写法。
+
+======== 2026-10-16T02:20:35.859Z [assistant] len=30
+HTTP 通道对该接口报 500，我换 MCP 通道直接读。
+
+======== 2026-10-16T02:21:22.261Z [assistant] len=53
+我已经拿到"那个流程"的两套既有规范（软件内模板 + 你第1/3镜成稿格式）。先把样例要用的分镜原文取全。
+
+======== 2026-10-16T02:21:56.767Z [assistant] len=6174
+# Handoff Summary — 字字动画（ZiziGenerator）任务 · 2026-10-16
+
+## 1. 环境与运行状态（已实时确认）
+
+- cwd `C:\Users\EDY\Documents\ChatGPT\即梦`；PowerShell；无沙箱；工作区 AGENTS.md 已生效。
+- 软件：`D:\字字动画_9_0_9(1)\字字动画_9_0_9`，进程 ZiziGenerator 7 个在跑；HTTP `http://127.0.0.1:8766/` 返回 200。
+- 项目目录：`...\工作目录\默认\10月15日`；当前作品 **重回80我有了山神系统**。
+- 内置 Python：`...\_internal\python-3.12\python.exe`（其 PIL 文字渲染会崩溃，拼图请用 System.Drawing/GDI）。
+- 工作目录：`C:\Users\EDY\Documents\ChatGPT\即梦\_zzdh_sync\`
+
+## 2. 目标 1：本地场景资产同步 —— 已完成 16/16（勿重跑）
+
+- 13 个复用 + 3 个新建（#20 深山小径、#21 刘淑芳家卧室、#22 林辰帐篷），每个挂主图 + `_反打.png`（`reference_items` 两图）。
+- 本回合再次读回确认：21 个 location，16 个有图、main+extra=1 全对；新建 3 个 reference_items 指向 `C:\Users\EDY\Desktop\重回80我有了山神系统\场景\...`。
+- 仍未挂图（本地无对应图）：#2 山崖边缘、#6 山下小路、#11 沈清荷办公室、#12 吴长贵家门口、#18 医院手术室外。
+- 产出：`scenes_in_app_sheet.jpg`（软件内缩略图验收图）、`scenes_contact_sheet.jpg`、`do_sync.py`、`plan.py`、`apply.py`、`api.py`、`readback.txt`、`panels_summary.txt`、`locations_index.txt`、`sync_run.log`、`templates.txt`、`doc_cards.txt`、`doc_titles.txt`。
+- 备份：`locations.json.bak-20261015-181923` / `.bak-sync-20261016-101432` / `.bak-zzdhsync`。
+- 全程零生成、零积分。**不要重跑同步脚本**（会覆盖用户手改）。
+
+## 3. 目标 2：自动写提示词 / 控时长 / 镜头衔接 —— 本回合有重大进展
+
+用户原话：「还是那个流程自动写进提示词控制分镜时常，镜头衔接」「按建议来」。
+
+### 3.1 已确认"那个流程"就是软件内置模板
+
+- 第 **1 镜**（un=`twr4svhxpb`，vp 1398 字）与第 **3 镜**（un=`pzemx6uowa`，vp 1532 字）**已经是标准成稿**，字段顺序固定：
+  `主题：` → `角色：@…` → `台词：` → `声音设计：` → `固定物品：` → `场景：` → `人物位置关系：` → `色调：` → `【镜头N】景别（焦段），角度，运镜。构图：… 动作链：… 位置关系：… 台词：…` → `渲染与画质：真人实拍…Arri Alexa…Kodak Vision3…⚠️严禁3D渲染` → `细节要求：…`
+- 来源模板在 `D:\字字动画_9_0_9(1)\字字动画_9_0_9\user_resources\user_templates\preset_infer.json`（根是对象，键 `"1"`…`"19"`）：
+  - **id=2 `模板 10`**（18003 字，"时长"×14、"镜头"×84）← 最可能是第1/3镜所用模板
+  - **id=3 `即梦`**（11573 字）含「五维提示词架构：@参考对象+主体描述+核心动作链+镜头与光影+动漫化特效」、专业镜头语言 Dolly-in/Handheld/85mm、样例用 `[0-0.3s]…` 时间码并以 `时长：9.0秒`
+

@@ -1,0 +1,105 @@
+{
+  "jobKey": "shanshen-e12-remaining-drafts-20261016",
+  "readAt": "2026-10-16T22:27:34.8240159+08:00",
+  "files": [
+    {
+      "path": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\AGENTS.md",
+      "sha256": "27675f747437808ff62241ffeef593f3d1cfd667cd255d8ac380a5ee8770fb53",
+      "reason": "workspace execution rules",
+      "scope": "read only"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\即梦分镜执行铁律.md",
+      "sha256": "9c036408785601d35e206b659046f05b69b8fe9fc85a55abc9a935f0d171d8b7",
+      "reason": "episode 12 prompt and generation gates",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.codex\\skills\\dreamina-storyboard-drafts\\SKILL.md",
+      "sha256": "fe6e74c8adc03f02457f5e6e05c8744c7f65bed5e9f3e2ceeffd88b6bf92a088",
+      "reason": "save-only storyboard workflow",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.codex\\skills\\dreamina-storyboard-drafts\\references\\execution-gates.md",
+      "sha256": "200d8d52596db8b6b776aa4d7f60b8de2de13fc7397954b324450f28390ff043",
+      "reason": "mandatory writing and save gates",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.codex\\skills\\dreamina-storyboard-drafts\\references\\prompt-and-plan.md",
+      "sha256": "52575f83a8e02db56cfc8759b434428ac31627d4e67fa143133614be1b824dac",
+      "reason": "prompt and plan contract",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.agents\\skills\\dreamina-canvas-cli\\SKILL.md",
+      "sha256": "49d56a3c7c67965c83448a3705728b5c44ac14bd7a16844881ee530cedf7c7f4",
+      "reason": "CLI capability, identity and generation boundaries",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.agents\\skills\\dreamina-canvas-cli\\references\\identity-and-references.md",
+      "sha256": "271dd236f066fd14a02b7ab6e3336f096ae2c2fcb1ba68909fce9e6f480b58f6",
+      "reason": "node/resource identity and prompt binding",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.agents\\skills\\dreamina-canvas-cli\\references\\recovery-and-idempotency.md",
+      "sha256": "76d56a911dbca55a357f176583c6595842f5c60bfdd6a6402b36f68fffbf3d48",
+      "reason": "stable identity and recovery",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.agents\\skills\\dreamina-canvas-cli\\references\\completion-and-validation.md",
+      "sha256": "214f720a4c715ac0f734337aa73dad779fd7b3c93e37805a373aadd04e03f9aa",
+      "reason": "post-save and resource validation",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\.agents\\skills\\dreamina-canvas-cli\\references\\credits-and-hitl.md",
+      "sha256": "d50f7c6134c9a8370a8e064922de459dfdcd362c0f8b756882ecdb82d1deb65d",
+      "reason": "quote and user credit approval boundary",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\SKILL.md",
+      "sha256": "7fdda3f40011b7bdb36852927581f71c3696bf1eccd765c13c0564b5ae534a29",
+      "reason": "prompt writing rules",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\references\\directing-toolkit.md",
+      "sha256": "cd38d768e5d7b24b3a0f149c4777c67ffc6b5adc201c6e5ab339c2c79a06586e",
+      "reason": "shot design and continuity",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\references\\model-adaptation.md",
+      "sha256": "7c60b01d7576928df3373126ed26a99f893612dc611b2b78effcc877dff1b5ef",
+      "reason": "Seedance 2.0 mini task complexity",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\references\\input-materials.md",
+      "sha256": "1a9aa84c9cd689d6f0518f47544a91eebdfa8f2798645143662adca37b4fadef",
+      "reason": "canvas asset and scene reference handling",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\references\\revision-workflow.md",
+      "sha256": "86b7c6ce7631405cf5fcddee25b6d417194f9145bfc741cc57f60eb813a0972f",
+      "reason": "merge approved temporary prompt revision",
+      "scope": "read and applied"
+    },
+    {
+      "path": "C:\\Users\\EDY\\Documents\\Codex\\2026-10-09\\kan\\work\\hermes_skills\\media-storyboard-design\\storyboard-prompt-generation-final\\references\\output-examples.md",
+      "sha256": "fdcd7ae934300671034b0703fe1ebc799f873ba71f5cd8b3cac02997851c355a",
+      "reason": "formal prompt delivery format",
+      "scope": "read and applied"
+    }
+  ],
+  "promptSource": "accepted temporary model-written revision plan",
+  "promptSourcePath": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\.data\\shanshen-followup-correct\\runs\\e12-remaining-revision-plan.json",
+  "promptSourceSha256": "0ab25ea6510ea831bf0602c8cb937afcee64d695252a6065ea250be79f2e13d6"
+}

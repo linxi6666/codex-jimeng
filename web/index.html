@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>即梦本地管理台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><h1>即梦本地管理台</h1><span id="account">检查登录状态…</span><button id="refreshAccount">检查账号</button><button id="login">授权登录</button><span id="loginLink"></span></header>
+<div id="notice" role="status" aria-live="polite"></div>
+<section class="toolbar"><label>目标画布 <select id="canvas"><option value="">加载中…</option></select></label><button id="refreshCanvas">刷新画布</button><button id="moreCanvas" hidden>更多画布</button><a id="canvasLink" target="_blank" rel="noreferrer noopener" hidden>打开即梦画布</a><span>所有上传都使用此处明确选定的画布。</span></section>
+<nav><button data-tab="assets" aria-pressed="false">视频资产</button><button data-tab="videos" aria-pressed="true">画布视频</button><button data-tab="subjects" aria-pressed="false">主体列表</button><button data-tab="import" aria-pressed="false">批量上传主体</button><button data-tab="jobs" aria-pressed="false">任务队列 <span id="queueCount"></span></button></nav>
+<main>
+<section id="assets" class="tab" hidden>
+  <h2>视频资产 · 按剧名分类</h2>
+  <p>只管理官方“生成历史 → 视频”的详情清单，<strong>不使用画布视频节点替代</strong>。按提示词开头的剧名/简称归类；没有明确前缀的放“其他”，不从正文人物或场景猜测项目。</p>
+  <p class="muted">当前是本地资产目录，尚不支持自动同步官方全部资产。点击“预览”可直接播放已接入的临时官方播放源，或选择已下载的视频。播放源仅在本页内存保留，刷新即清除，不写入清单；地址失效需重新接入。</p>
+  <div class="toolbar"><label>剧名项目 <select id="assetProject"><option value="">全部项目</option></select></label><input id="assetSearch" placeholder="搜索提示词" aria-label="搜索视频资产提示词"><button id="findAssets">筛选</button><button id="refreshAssets">刷新本地清单</button><a href="https://jimeng.jianying.com/ai-tool/asset" target="_blank" rel="noreferrer noopener">官方视频资产页</a></div>
+  <p id="assetSummary">尚未加载本地清单</p>
+  <div class="tablewrap"><table><thead><tr><th>项目</th><th>提示词开头</th><th>日期 / 时长</th><th>模型 / 规格</th><th>操作</th></tr></thead><tbody id="assetRows"></tbody></table></div>
+  <div class="toolbar"><button id="assetPrev">上一页</button><span id="assetPage"></span><button id="assetNext">下一页</button></div>
+  <details><summary>剧名及简称规则（本地配置，不修改官方资产）</summary>
+    <p>明确的 <code>《剧名》提示词……</code> 自动识别；无括号时使用已登记简称，如 <code>浪子回头-第1集……</code>。每行一个项目，格式：<code>剧名|简称1,简称2</code>。未登记的普通正文开头不会被猜成项目。</p>
+    <textarea id="assetProjectRules" aria-label="剧名与简称规则" rows="5"></textarea><button id="saveAssetProjects">保存并重新分类</button>
+  </details>
+  <details><summary>导入 / 导出官方视频详情清单</summary>
+    <p>仅支持官方视频页已读取的提示词及元数据 JSON；不读取Cookie或私有接口。可让 Agent 读取视频详情后导入；同一清单重复导入不重复增加。不同清单不能保证跨批次自动去重，更新原记录请保留导出的本地记录ID。</p>
+    <div class="toolbar"><input id="assetManifest" type="file" accept="application/json,.json" aria-label="选择视频资产清单"><button id="importAssets">导入到本地</button><button id="exportAssets">导出详情清单</button></div>
+  </details>
+</section>
+<section id="videos" class="tab">
+  <h2>画布视频管理</h2><p>查询画布中的视频节点，不是官方账号资产库；查看提示词、资源和本地备注。预览需先通过 CLI 下载到本机，是否支持视频下载以实际返回为准。</p>
+  <div class="toolbar"><input id="videoSearch" placeholder="搜索标题或提示词" aria-label="搜索视频"><select id="videoStatus" aria-label="筛选视频状态"><option value="">全部状态</option><option value="success">成功</option><option value="running">生成中</option><option value="empty">尚未生成</option><option value="failed">失败</option><option value="partial_success">部分成功</option><option value="canceled">取消</option><option value="unknown">未知</option></select><button id="findVideos">查询</button><span id="videoPage"></span></div>
+  <div class="tablewrap"><table><thead><tr><th>标题</th><th>状态</th><th>本地备注</th><th>操作</th></tr></thead><tbody id="videoRows"></tbody></table></div>
+  <div class="toolbar"><button id="videoPrev">上一页</button><button id="videoNext">下一页</button></div>
+  <p class="muted">分页不是固定快照，画布变化时可能重复或漏项；到达 CLI 偏移上限后请缩小搜索范围。本工具不剪辑、不触发重新生成。</p>
+</section>
+<section id="subjects" class="tab" hidden>
+  <h2>主体列表</h2><div class="toolbar"><input id="subjectSearch" placeholder="搜索主体" aria-label="搜索主体"><button id="findSubjects">查询</button><span id="subjectPage"></span></div>
+  <div class="tablewrap"><table><thead><tr><th>标题</th><th>状态</th><th>操作</th></tr></thead><tbody id="subjectRows"></tbody></table></div>
+  <div class="toolbar"><button id="subjectPrev">上一页</button><button id="subjectNext">下一页</button></div>
+</section>
+<section id="import" class="tab" hidden>
+  <h2>批量上传主体</h2>
+  <p><strong>先分组检查，再上传到即梦。</strong>文件夹按图片的直接父目录分组；普通多选图片默认每张一个主体，可调整为同一组。组内第一张为主图，其余为辅助图。</p>
+  <div class="toolbar"><label class="file">选择多张图片<input id="images" type="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple></label><label class="file">选择文件夹<input id="folder" type="file" webkitdirectory multiple></label><button id="merge">将选中图片合成一个主体</button><button id="split">选中图片各建一个主体</button><button id="clearDraft">清空草稿</button></div>
+  <p>支持 PNG/JPG/WEBP/GIF；应用限制每张 32MB，每组 30 张，每批 200 个主体。实际素材准入仍由即梦判断。分组名称相同表示同一主体。</p>
+  <div class="tablewrap"><table><thead><tr><th><input id="selectAll" type="checkbox" aria-label="全选素材"></th><th>本地预览</th><th>文件</th><th>主体分组名称</th><th>主图</th><th>本地暂存状态</th><th>操作</th></tr></thead><tbody id="draftRows"></tbody></table></div>
+  <p id="draftSummary">尚未选择图片</p><div id="groupDescriptions"></div>
+  <div class="toolbar"><button id="submitSubjects" class="primary">上传并创建主体</button><span id="uploadProgress"></span></div>
+  <p class="muted">选择文件和本地暂存不会上传到即梦。点击“上传并创建主体”并确认目标后，才会发送素材。只保存图片与主体节点，不提交生成、不批准积分。</p>
+</section>
+<section id="jobs" class="tab" hidden>
+  <h2>任务队列</h2><div class="toolbar"><button id="refreshJobs">刷新</button><button id="pauseQueued">暂停未开始的任务</button><button id="exportJobs">导出任务记录</button><span>正在执行的操作不会取消；关闭后重启会暂停全部未完成任务，需手动恢复。</span></div>
+  <div class="tablewrap"><table><thead><tr><th>任务 / 画布</th><th>状态 / 进度</th><th>错误 / 下一步</th><th>操作</th></tr></thead><tbody id="jobRows"></tbody></table></div>
+  <p class="muted">恢复沿用原资源、节点和更新标识，先回读远端状态。结果不确定时保持暂停，不盲目重复上传。队列最多显示最近 300 项，完整记录保存在本地数据库。</p>
+</section>
+</main>
+<dialog id="detail"><div class="toolbar"><h2 id="detailTitle">详情</h2><button id="closeDetail">关闭</button></div><div id="detailBody"></div></dialog>
+<dialog id="preview"><div class="toolbar"><h2>视频预览</h2><button id="closePreview">关闭</button></div><div id="previewBody"></div></dialog>
+<footer id="storage">仅本机访问。登录凭据由官方 CLI 管理。</footer>
+</body></html>

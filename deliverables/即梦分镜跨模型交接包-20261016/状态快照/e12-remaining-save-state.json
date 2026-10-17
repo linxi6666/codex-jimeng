@@ -1,0 +1,166 @@
+{
+  "jobKey": "shanshen-e12-remaining-drafts-20261016",
+  "projectId": "e7ec7935-b916-4572-b38f-76cb899a0168",
+  "episode": "12",
+  "mode": "save-only-no-generation",
+  "generate": false,
+  "frame": {
+    "sourceNodeId": "node_cee947efbe",
+    "sourceResourceId": "1b0c8f9a-63d5-4d50-b842-ceec47cedc3a",
+    "sourceVideoPath": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\.data\\shanshen-followup-correct\\runs\\e12-test-3.mp4",
+    "framePath": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\.data\\shanshen-followup-correct\\runs\\e12-test-3-tail.png",
+    "frameSha256": "a4e1c5133a2f08d768ef1f860189d22fa968ae13fe1fa182960936669f8cf6eb",
+    "resourceId": "10fc6d4e-5e7c-4a58-b4a2-16d9f799bc37",
+    "uploadTitle": "山神-12-1-04 成功视频实际尾帧",
+    "nodeId": "node_58erknmza1",
+    "importSubmitId": "6eb1f9fe-4e03-4e3e-be63-6a0f769f4315",
+    "preflightSha256": "a4e1c5133a2f08d768ef1f860189d22fa968ae13fe1fa182960936669f8cf6eb",
+    "phase": "imported-and-bound",
+    "importRequestId": "20261016222349A8B7EA458E9C61D83AB9"
+  },
+  "items": [
+    {
+      "shot": "1-05",
+      "nodeId": "node_d269c8b23c",
+      "title": "山神-12-1-05 二十年前旧账下",
+      "beforeStatus": "empty",
+      "beforeResources": 0,
+      "beforePromptSha256": "48da8b4dac1247a5900b465df794680f9bae7c5afcd927daed12b81cb5c3fbba",
+      "beforeDuration": 10,
+      "beforeModel": "seedance_2.0_mini",
+      "beforeRatio": "9:16",
+      "beforeResolution": "720p",
+      "beforeCount": 1,
+      "beforeUpstream": [
+        "node_rw7ey66aam",
+        "node_xm5m75474s",
+        "node_327agkhx9q"
+      ],
+      "updateId": "69c37ec2-9d12-41ad-9b71-46d17ba731c2",
+      "phase": "succeeded",
+      "duration": 14,
+      "saveRequestId": "2026101622240849414C8BA01C5FD3CBF2",
+      "submitId": "1d911ea0-f890-4d9e-828a-8a2792b81803",
+      "resourceId": "10c54f82-2536-46ae-aa37-2ece2b2080f0",
+      "completedAt": "2026-10-16T22:32:48+08:00",
+      "terminalRequestId": "202610162232485153C10B7ADC5DFDAE78"
+    },
+    {
+      "shot": "2-01",
+      "nodeId": "node_6ca8b087e7",
+      "title": "山神-12-2-01 安静被踹破",
+      "beforeStatus": "empty",
+      "beforeResources": 0,
+      "beforePromptSha256": "d7cf40e0bc77c507801ae1adb026b5e5b1f0397b5646959e4f18d1ffbb6371fb",
+      "beforeDuration": 12,
+      "beforeModel": "seedance_2.0_mini",
+      "beforeRatio": "9:16",
+      "beforeResolution": "720p",
+      "beforeCount": 1,
+      "beforeUpstream": [
+        "node_rw7ey66aam",
+        "node_8sznf47jwk",
+        "node_anc40mzt0b",
+        "node_ks54rqdcd7",
+        "node_7pnc7tcmqg",
+        "node_8dpdwzx5df"
+      ],
+      "updateId": "fe22d574-4ea6-4a2f-ba03-ecdc802232fa",
+      "phase": "succeeded",
+      "duration": 12,
+      "saveRequestId": "20261016222429B88BCD18B7EED5D776C0",
+      "submitId": "055a8a7e-bce6-46f1-8b02-dff9c296c368",
+      "resourceId": "8dfbc0ad-bab0-41f7-919b-ad1f292d78c5",
+      "completedAt": "2026-10-16T22:33:30+08:00",
+      "terminalRequestId": "20261016223330EC9B82C392F917D737F3"
+    },
+    {
+      "shot": "2-03",
+      "nodeId": "node_bea7901f54",
+      "title": "山神-12-2-03 逼问货去处",
+      "beforeStatus": "empty",
+      "beforeResources": 0,
+      "beforePromptSha256": "69279b736887c0415e2ed3b76a639c8c6d5f11cb0ea3a3a51a476514238b4aca",
+      "beforeDuration": 7,
+      "beforeModel": "seedance_2.0_mini",
+      "beforeRatio": "9:16",
+      "beforeResolution": "720p",
+      "beforeCount": 1,
+      "beforeUpstream": [
+        "node_anc40mzt0b",
+        "node_rw7ey66aam",
+        "node_7pnc7tcmqg"
+      ],
+      "updateId": "7b1f3445-8dbe-46b3-89ce-1df254e0d105",
+      "phase": "succeeded",
+      "duration": 8,
+      "saveRequestId": "20261016222505D6466603A4AB72D2A6FA",
+      "submitId": "e17e35a0-07c2-4154-a79d-d4f3554654aa",
+      "tailUpdateId": "c663bdb2-f52d-4410-b03c-f152375d54c6",
+      "quoteMaxCredits": 48,
+      "quoteConfirmationRequired": false,
+      "quoteRequestId": "20261016223822A8771F70F45DE4D7AB93",
+      "quoteDraftVersion": 509,
+      "generationPreparedAt": "2026-10-16T22:38:59.3119606+08:00",
+      "resourceId": "36e73bfa-f043-433a-9a78-a635b5f227b7",
+      "dispatchRequestId": "202610162239046C74285C2A5F84EC3853",
+      "updatedDraftVersion": 509,
+      "completedAt": "2026-10-16T22:42:54.8455287+08:00",
+      "terminalRequestId": "20261016224230E4065D34A4C6A3E848A9",
+      "quote": {
+        "maxCredits": 48,
+        "confirmationRequired": false,
+        "requestId": "20261016223822A8771F70F45DE4D7AB93"
+      },
+      "actualTailTimeSeconds": 11.796009,
+      "tailNodeId": "node_jyffqerff9",
+      "downloadedVideoSha256": "f43982b6f89d6b7d9d186e8f7dc29e0877ddbc20f8fd15db9224fa79ebd142ff"
+    }
+  ],
+  "planPath": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\.data\\shanshen-followup-correct\\runs\\e12-remaining-revision-plan.json",
+  "planSha256": "5de8c4535c24d1b97ae4608e60a55c0cbadfd77334e19aae66035fcf9d5f8109",
+  "preflightAt": "2026-10-16T21:31:21.1480189+08:00",
+  "preflight": "all-three-empty-no-resources-title-and-prompt-match-baseline",
+  "draftVersion": 509,
+  "creditQuote": {
+    "status": "submitted",
+    "items": [
+      {
+        "nodeId": "node_d269c8b23c",
+        "maxCredits": 84
+      },
+      {
+        "nodeId": "node_6ca8b087e7",
+        "maxCredits": 72
+      }
+    ],
+    "totalMaxCredits": 156,
+    "confirmable": true,
+    "confirmationRequired": true,
+    "requestId": "2026101622262198F3D7DC4271B2D97827",
+    "quotedAt": "2026-10-16T22:27:12.6850038+08:00",
+    "approvedCeiling": 156,
+    "confirmRequestId": "202610162229220DEB67B87FC4B5E7DBCA",
+    "dispatchRequestId": "20261016222948C7DC13B97DFC80ED5784",
+    "runDispatchState": "completed",
+    "completedAt": "2026-10-16T22:45:51.8331828+08:00"
+  },
+  "continuityFrames": [
+    {
+      "sourceNodeId": "node_6ca8b087e7",
+      "sourceResourceId": "8dfbc0ad-bab0-41f7-919b-ad1f292d78c5",
+      "sourceDurationSeconds": 12.096009,
+      "frameTimeSeconds": 11.796009,
+      "framePath": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\.data\\shanshen-followup-correct\\runs\\e12-2-01-tail.png",
+      "frameSha256": "338f679cb04205479c7d84e3d0f5bdb371a980f4e577845ecdca795c611817df",
+      "resourceId": "1f6397f8-e03e-43be-8269-eb2686a688ad",
+      "nodeId": "node_jyffqerff9",
+      "importSubmitId": "8f097033-2c70-480d-9679-175b224f17c0",
+      "phase": "bound-and-consumed",
+      "title": "山神-12-2-01 成功视频实际尾帧",
+      "importRequestId": "20261016223525ACF2190A369310D3C1B0",
+      "uploadRequestId": "2026101622351416010B11DAEF79F0EA45"
+    }
+  ],
+  "finalDoc": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-第12集余下分镜-修订稿.md"
+}

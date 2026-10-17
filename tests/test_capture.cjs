@@ -1,0 +1,17 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {redact,safeBody,safeUrl,eligible,safeHeaderTypes}=require('../capture-jimeng.cjs');
+const sample={cookie:'SECRET_COOKIE',authorization:'SECRET_AUTH',data:{token:'SECRET_TOKEN',signature:'SECRET_SIG',phone:'SECRET_PHONE',image_uri:'SECRET_URI',name:'PRIVATE_NAME',count:1,type:'image',element_id:'opaque-id'}};
+const output=JSON.stringify(redact(sample));
+for(const secret of ['SECRET_COOKIE','SECRET_AUTH','SECRET_TOKEN','SECRET_SIG','SECRET_PHONE','SECRET_URI','PRIVATE_NAME','opaque-id'])assert(!output.includes(secret));
+assert.equal(redact(sample).data.count,1);assert.equal(redact(sample).data.type,'image');
+assert.equal(safeBody('not a body').omitted,'non-json or binary body');
+assert.equal(safeBody('token=PRIVATE&type=image','application/x-www-form-urlencoded').token,'[redacted]');
+const u=safeUrl('https://jimeng.jianying.com/api/12345678?msToken=PRIVATE&name=PRIVATE_NAME&aid=123');
+assert.equal(u.path,'/api/[opaque]');assert.equal(u.query.msToken,'[redacted]');assert(!JSON.stringify(u).includes('PRIVATE'));
+assert(eligible('https://jimeng.jianying.com/api/element/create','XHR','POST'));
+assert(!eligible('https://jimeng.jianying.com/passport/login','XHR','POST'));
+assert(!eligible('https://evil.example/api/upload','XHR','POST'));
+assert(!eligible('https://jimeng.jianying.com.evil.example/api/upload','XHR','POST'));
+assert.deepEqual(safeHeaderTypes({Cookie:'PRIVATE','X-Token':'PRIVATE','Content-Type':'application/json; charset=utf-8'}),{'content-type':'application/json'});
+console.log('Capture sanitization tests passed.');

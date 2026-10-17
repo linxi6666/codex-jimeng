@@ -1,0 +1,25 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {signImageX,crc32,pngSize,imageSize,runWaves}=require('../upload-official-subjects.cjs');
+assert.equal(crc32(Buffer.from('123456789')),'cbf43926');
+const png=Buffer.alloc(24);Buffer.from('89504e470d0a1a0a','hex').copy(png);png.writeUInt32BE(100,16);png.writeUInt32BE(200,20);
+assert.deepEqual(pngSize(png),{width:100,height:200});assert.throws(()=>pngSize(Buffer.from('not png')));
+assert.deepEqual(imageSize(png),{width:100,height:200});
+const jpg=Buffer.from('ffd8ffc000110800c8006403011100021100031100ffd9','hex');
+assert.deepEqual(imageSize(jpg),{width:100,height:200});assert.throws(()=>imageSize(Buffer.from('bad jpeg')));
+const c={access_key_id:'test',secret_access_key:'secret',session_token:'testtoken'};
+const r=signImageX('GET',{Version:'2018-08-01',Action:'ApplyImageUpload'},'',c,new Date('2026-10-14T10:00:00Z'));
+assert.equal(r.url,'https://imagex.bytedanceapi.com/?Action=ApplyImageUpload&Version=2018-08-01');
+assert.equal(r.headers['x-amz-date'],'20261014T100000Z');
+assert.match(r.headers.authorization,/20261014\/cn-north-1\/imagex\/aws4_request/);
+assert.match(r.headers.authorization,/Signature=[a-f0-9]{64}$/);
+(async()=>{
+  let active=0,max=0,finished=0,verified=0;
+  await runWaves([1,2,3,4,5],2,async i=>{active++;max=Math.max(max,active);await new Promise(r=>setTimeout(r,1));active--;finished++;return i;},async done=>{assert.equal(active,0);verified+=done.length;});
+  assert.equal(max,2);assert.equal(finished,5);assert.equal(verified,5);
+  const started=[],successful=[];
+  await assert.rejects(()=>runWaves([1,2,3,4],2,async i=>{started.push(i);if(i===2)throw new Error('uncertain');return i;},async done=>successful.push(...done)),/uncertain/);
+  assert.deepEqual(started,[1,2]);assert.deepEqual(successful,[1]);
+  await assert.rejects(()=>runWaves([],9,()=>{},()=>{}));
+  console.log('Official upload helper and concurrency tests passed.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

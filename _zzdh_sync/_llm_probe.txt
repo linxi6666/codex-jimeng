@@ -1,0 +1,3 @@
+elapsed 13.1s
+keys: ['success', 'content', 'thinking']
+{"success": true, "content": "����", "thinking": "User requests exactly two characters: ����."}

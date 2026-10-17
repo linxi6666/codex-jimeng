@@ -1,0 +1,178 @@
+[
+  {
+    "prefix": "01",
+    "local_dir": "01_深山老林（日）",
+    "label": "深山老林（日）",
+    "target": "深山老林",
+    "target_id": "5",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\01_深山老林（日）\\深山老林（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\01_深山老林（日）\\深山老林（日）_反打.png",
+    "exists": true,
+    "cur_refs": 1
+  },
+  {
+    "prefix": "02",
+    "local_dir": "02_山底（日）",
+    "label": "山底（日）",
+    "target": "山底路口",
+    "target_id": "4",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\02_山底（日）\\山底（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\02_山底（日）\\山底（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "03",
+    "local_dir": "03_刘淑芳家堂屋（日）",
+    "label": "刘淑芳家堂屋（日）",
+    "target": "刘淑芳家屋内",
+    "target_id": "1",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\03_刘淑芳家堂屋（日）\\刘淑芳家堂屋（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\03_刘淑芳家堂屋（日）\\刘淑芳家堂屋（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "04",
+    "local_dir": "04_深山小径（日）",
+    "label": "深山小径（日）",
+    "target": "山下小路",
+    "target_id": "6",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\04_深山小径（日）\\深山小径（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\04_深山小径（日）\\深山小径（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "05",
+    "local_dir": "05_雪山（日）",
+    "label": "雪山（日）",
+    "target": "雪山冰崖",
+    "target_id": "15",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\05_雪山（日）\\雪山（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\05_雪山（日）\\雪山（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "06",
+    "local_dir": "06_林家院子（日）",
+    "label": "林家院子（日）",
+    "target": "林家院子",
+    "target_id": "9",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\06_林家院子（日）\\林家院子（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\06_林家院子（日）\\林家院子（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "07",
+    "local_dir": "07_王建华办公室（日）",
+    "label": "王建华办公室（日）",
+    "target": "王建华办公室",
+    "target_id": "16",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\07_王建华办公室（日）\\王建华办公室（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\07_王建华办公室（日）\\王建华办公室（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "08",
+    "local_dir": "08_山海珍酒店大堂（日）",
+    "label": "山海珍酒店大堂（日）",
+    "target": "山海珍酒店",
+    "target_id": "7",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\08_山海珍酒店大堂（日）\\山海珍酒店大堂（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\08_山海珍酒店大堂（日）\\山海珍酒店大堂（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "09",
+    "local_dir": "09_刘淑芳家卧室（夜）",
+    "label": "刘淑芳家卧室（夜）",
+    "target": "刘淑芳家屋内",
+    "target_id": "1",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\09_刘淑芳家卧室（夜）\\刘淑芳家卧室（夜）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\09_刘淑芳家卧室（夜）\\刘淑芳家卧室（夜）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "10",
+    "local_dir": "10_林家堂屋（夜）",
+    "label": "林家堂屋（夜）",
+    "target": "林家堂屋",
+    "target_id": "13",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\10_林家堂屋（夜）\\林家堂屋（夜）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\10_林家堂屋（夜）\\林家堂屋（夜）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "11",
+    "local_dir": "11_林辰帐篷（夜）",
+    "label": "林辰帐篷（夜）",
+    "target": "吴长贵扎营地",
+    "target_id": "14",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\11_林辰帐篷（夜）\\林辰帐篷（夜）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\11_林辰帐篷（夜）\\林辰帐篷（夜）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "12",
+    "local_dir": "12_吴长贵扎营地（夜）",
+    "label": "吴长贵扎营地（夜）",
+    "target": "吴长贵扎营地",
+    "target_id": "14",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\12_吴长贵扎营地（夜）\\吴长贵扎营地（夜）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\12_吴长贵扎营地（夜）\\吴长贵扎营地（夜）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "13",
+    "local_dir": "13_迷障区（日）",
+    "label": "迷障区（日）",
+    "target": "迷障区",
+    "target_id": "10",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\13_迷障区（日）\\迷障区（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\13_迷障区（日）\\迷障区（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "14",
+    "local_dir": "14_济世药房（内·日）",
+    "label": "济世药房（内·日）",
+    "target": "济世药房",
+    "target_id": "8",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\14_济世药房（内·日）\\济世药房（内·日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\14_济世药房（内·日）\\济世药房（内·日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "15",
+    "local_dir": "15_镇卫生院走廊（日）",
+    "label": "镇卫生院走廊（日）",
+    "target": "镇卫生院走廊",
+    "target_id": "3",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\15_镇卫生院走廊（日）\\镇卫生院走廊（日）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\15_镇卫生院走廊（日）\\镇卫生院走廊（日）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  },
+  {
+    "prefix": "16",
+    "local_dir": "16_青山种植基地外围（夜）",
+    "label": "青山种植基地外围（夜）",
+    "target": "青山种植基地",
+    "target_id": "17",
+    "main": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\16_青山种植基地外围（夜）\\青山种植基地外围（夜）.png",
+    "rev": "C:\\Users\\EDY\\Desktop\\重回80我有了山神系统\\场景\\16_青山种植基地外围（夜）\\青山种植基地外围（夜）_反打.png",
+    "exists": true,
+    "cur_refs": 0
+  }
+]

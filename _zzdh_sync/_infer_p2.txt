@@ -1,0 +1,7 @@
+infer_result: {"success": true, "unique_name": "26a3622011", "category": "llm_infer", "task_group_id": 6}
+elapsed 0.2s
+video_prompt_len 0 prompt_len 0
+scene_duration 5.0 generation_scene_duration 0.0
+selected_character_ids [] selected_locations []
+--- video_prompt ---
+

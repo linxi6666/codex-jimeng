@@ -1,0 +1,154 @@
+{
+  "projectId": "8464682f-9531-4587-9a32-2b91c74317b7",
+  "canvasName": "《山神透视艳》-10-agent",
+  "protectedShot1Unchanged": true,
+  "protectedResourceIds": [
+    "f84b224c-5c88-44e8-93fa-4f7029ef54ea"
+  ],
+  "updatedDrafts": [
+    {
+      "nodeId": "node_5667db3c03",
+      "status": "empty",
+      "references": [
+        "node_fecafdb723",
+        "node_43012087f9",
+        "node_0b241489dd",
+        "node_3691eb1d66"
+      ],
+      "bodyBindings": 20,
+      "duration": 12,
+      "outputCount": 1,
+      "generated": false,
+      "promptSha256": "06fc5338fbde601ef841e3ebb9f64e161b0886ee37d58963b084d2e793b69aaf"
+    },
+    {
+      "nodeId": "node_b1c2df7e14",
+      "status": "empty",
+      "references": [
+        "node_fecafdb723",
+        "node_0b241489dd",
+        "node_3691eb1d66",
+        "node_8906048290"
+      ],
+      "bodyBindings": 21,
+      "duration": 12,
+      "outputCount": 1,
+      "generated": false,
+      "promptSha256": "9bf4a492b327d151db4ec1511091361a9211f7bec68410791c9f96bb2f31fea0"
+    }
+  ],
+  "createdNodes": 0,
+  "submittedGenerationTasks": 0,
+  "webVisualCheck": false,
+  "commands": [
+    {
+      "command": "node show",
+      "nodeId": "node_71937e96d0",
+      "generation": false,
+      "requestId": "2026101518255937A77705EEF261BEBE2D"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "2026101518260037A77705EEF261BEBE42"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "2026101518260000F413A4FA863E9DFC56"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "202610151826012487BC4A4C33BE9DD81F"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_71937e96d0",
+      "generation": false,
+      "requestId": "20261015182601C62141B05ECC3CA10259"
+    },
+    {
+      "command": "node edit video",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": null
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "2026101518260257A8B625E89B9CB11AEE"
+    },
+    {
+      "command": "node edit video",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "202610151826031F8B4DEBA56C289E16C3"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "202610151826030731B2E718A36FAF68D3"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "20261015182604C2519EB945CF4DA8AD76"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_71937e96d0",
+      "generation": false,
+      "requestId": "2026101518260496B9DCE3D53677B11624"
+    },
+    {
+      "command": "node edit video",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": null
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "20261015182605EE5F5302B8FA06A308B6"
+    },
+    {
+      "command": "node edit video",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "20261015182606AFEBF6CBEB94949CEC35"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "20261015182606342C01B74686429D5D95"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_71937e96d0",
+      "generation": false,
+      "requestId": "20261015182607C24EFC29FA93F2A1629A"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_5667db3c03",
+      "generation": false,
+      "requestId": "20261015182608A9904AC3559B8CBC143F"
+    },
+    {
+      "command": "node show",
+      "nodeId": "node_b1c2df7e14",
+      "generation": false,
+      "requestId": "202610151826089A113AC51B50ABA26B19"
+    }
+  ],
+  "validation": "server-readback-complete; video appearance and audio remain untested"
+}

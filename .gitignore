@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.data/
+*.log
+
+# Generated video deliverables stay local.
+/deliverables/**/*.mp4
+/deliverables/**/*.mov
+/deliverables/**/*.webm
+/deliverables/**/*.mkv
+/deliverables/**/*.avi
+/deliverables/**/*.m4v

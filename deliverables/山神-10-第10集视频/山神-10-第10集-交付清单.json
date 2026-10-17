@@ -1,0 +1,428 @@
+{
+  "projectId": "8464682f-9531-4587-9a32-2b91c74317b7",
+  "canvasTitle": "《山神透视艳》-10-agent",
+  "canvasUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/8464682f-9531-4587-9a32-2b91c74317b7",
+  "expected": 19,
+  "valid": 19,
+  "errors": [],
+  "items": [
+    {
+      "shot": "1-01",
+      "nodeId": "node_71937e96d0",
+      "submitId": null,
+      "resourceId": "f84b224c-5c88-44e8-93fa-4f7029ef54ea",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-01.mp4",
+      "size": 26112886,
+      "sha256": "08a1adcdf7c491e646541a35cf75e42e1d1166ca6a9f88a3485500f4c240e2ca",
+      "media": {
+        "durationSeconds": 13.088005,
+        "formatSize": 26112886,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-02",
+      "nodeId": "node_5667db3c03",
+      "submitId": null,
+      "resourceId": "d1c8bc6a-e0c7-4178-a65e-42bd8e3b5314",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-02.mp4",
+      "size": 25138544,
+      "sha256": "aec1321ae23a6b5104e6b4bdb2e53e3eccd4a7e609c5a2c606463ceaeb0ea18e",
+      "media": {
+        "durationSeconds": 12.096009,
+        "formatSize": 25138544,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-03",
+      "nodeId": "node_b1c2df7e14",
+      "submitId": "95777e66-0bd5-4aed-b909-9dceaa96c684",
+      "resourceId": "29c76be3-5fe1-442e-b16d-c8be380c20a9",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-03.mp4",
+      "size": 22079545,
+      "sha256": "373f821f2c1a4f40dd119aa4fbff1c74c61bdb8e795d0fc4fd8cb26aac890c80",
+      "media": {
+        "durationSeconds": 12.096009,
+        "formatSize": 22079545,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-04",
+      "nodeId": "node_1c0e22fd9e",
+      "submitId": "f5f3b645-3440-4701-acd9-61234764965a",
+      "resourceId": "1b646868-4426-461a-876c-7d05aaeeaa32",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-04.mp4",
+      "size": 24158806,
+      "sha256": "05dc998641b06e7af0580ffe538276792fb4eaf6542024713046a87ce2e88d58",
+      "media": {
+        "durationSeconds": 12.096009,
+        "formatSize": 24158806,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-05",
+      "nodeId": "node_8f83674364",
+      "submitId": "5ae861a1-ec74-4610-835f-d0478205faa2",
+      "resourceId": "0b668b4a-5835-4fd9-b4ad-5e405dac859e",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-05.mp4",
+      "size": 8914842,
+      "sha256": "36ef4b9ed3a8ba42a15cb0957586e314ca228ebfdf81ea448cf52255d68cc323",
+      "media": {
+        "durationSeconds": 4.096009,
+        "formatSize": 8914842,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-06",
+      "nodeId": "node_b73a9d3d2a",
+      "submitId": "7fc523ec-46f2-4146-8b6a-c34d381325c1",
+      "resourceId": "b9a56eb6-8909-4296-9254-a607d6912076",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-06.mp4",
+      "size": 31585600,
+      "sha256": "a55eed67964c76edff957e3d4ffec94023c475a6c194c9baf3aa0ab961ed1cae",
+      "media": {
+        "durationSeconds": 15.103991,
+        "formatSize": 31585600,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-07",
+      "nodeId": "node_76acf7c07b",
+      "submitId": "cc5cee18-a1d3-4563-958b-8d926819d8df",
+      "resourceId": "ee9e607f-29b6-471f-9933-5d80d28fcd05",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-07.mp4",
+      "size": 14261521,
+      "sha256": "635814e1cab537fe476052b2f8c1149fb5c5619606f262afdc1534479e4f69e1",
+      "media": {
+        "durationSeconds": 7.103991,
+        "formatSize": 14261521,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-08",
+      "nodeId": "node_aef83a296e",
+      "submitId": "b56c2876-4214-4c2c-98dd-e50933ef48dd",
+      "resourceId": "3bf91101-76fd-48b9-a692-b12a6ceb5a59",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-08.mp4",
+      "size": 24894403,
+      "sha256": "65aea36d22afc9fcd45b003c8ecdce8b534d8309173064233b6fdd6c1eb488a1",
+      "media": {
+        "durationSeconds": 12.096009,
+        "formatSize": 24894403,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-09",
+      "nodeId": "node_2cac5cf559",
+      "submitId": "f0461c14-c0a3-48af-b8e6-fdeb70b60d1f",
+      "resourceId": "fbf36ce9-dcf9-4fe4-8ef1-731a8d782b6c",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-09.mp4",
+      "size": 7357673,
+      "sha256": "f6aec3fde5b034e8e8686dd768bb9da955652d57172defb53141f03921c35b1e",
+      "media": {
+        "durationSeconds": 4.096009,
+        "formatSize": 7357673,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-10",
+      "nodeId": "node_ddbf95fe94",
+      "submitId": "ace71da3-d97f-4cf8-81c5-bc7f346480e2",
+      "resourceId": "aba190f8-afc6-4222-8957-7dc804ddaff3",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-10.mp4",
+      "size": 19835729,
+      "sha256": "a6bc6eb2a27fab7a98f7a6c551f019eace5a883221bf32d7195f1ecb27b3f7df",
+      "media": {
+        "durationSeconds": 10.08,
+        "formatSize": 19835729,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-11",
+      "nodeId": "node_f26f8ff272",
+      "submitId": "dbb562b0-43d8-4c92-9a22-98e095f4a562",
+      "resourceId": "24da9f21-c5d3-4c57-b664-904550df1f2b",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-11.mp4",
+      "size": 5927125,
+      "sha256": "59c9b8a17f1b30112d0e66fc8e900f45c768105fc9040927832ab579b80c9cc9",
+      "media": {
+        "durationSeconds": 4.096009,
+        "formatSize": 5927125,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-12",
+      "nodeId": "node_6dbe4106a9",
+      "submitId": "185d6578-ebe3-4dc9-a924-f3692489cbe0",
+      "resourceId": "03d7a1f6-28ce-4bef-8d51-055f4aae57b0",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-12.mp4",
+      "size": 15904373,
+      "sha256": "67c40e20f762314d2ba16d439789e4ec43874d43889d4c3ba6dca6b816c58656",
+      "media": {
+        "durationSeconds": 10.08,
+        "formatSize": 15904373,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-13",
+      "nodeId": "node_4848e1f157",
+      "submitId": "7f89b60d-1c78-40ef-bfd8-78cf568b6554",
+      "resourceId": "ded6d943-625c-4d0a-adce-d4284fa66cee",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-13.mp4",
+      "size": 10274114,
+      "sha256": "9766970343c860dbdef984789549473762fe2747fbe20caffa4a5dfb7eb3f3a8",
+      "media": {
+        "durationSeconds": 6.08,
+        "formatSize": 10274114,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "1-14",
+      "nodeId": "node_480704433d",
+      "submitId": "df3e3319-9c6d-4652-badb-620bcecc19b1",
+      "resourceId": "c61fa083-c563-43e3-aa43-485650b4c22f",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-1-14.mp4",
+      "size": 17813175,
+      "sha256": "ffc70aca7662e6cde999c0bb5b71b9e8634a90f9301516fc67d95b0400c7c10c",
+      "media": {
+        "durationSeconds": 10.08,
+        "formatSize": 17813175,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "2-01",
+      "nodeId": "node_5ae76bd761",
+      "submitId": "fb733ab4-ffb8-4a89-b8ff-68b87f0eb645",
+      "resourceId": "9d534b4b-3939-48b0-819b-0d82c4b5bc97",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-2-01.mp4",
+      "size": 16691188,
+      "sha256": "c7d37af2e706994f62b5e3570d6d2aa39f69f2faedb925ede46a812b4db35891",
+      "media": {
+        "durationSeconds": 8.096009,
+        "formatSize": 16691188,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "2-02",
+      "nodeId": "node_01648f52d2",
+      "submitId": "d9421843-0439-45e3-90f9-a4c5b4e7e443",
+      "resourceId": "8d1ad31f-58c2-4174-befd-eba69c40484e",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-2-02.mp4",
+      "size": 14993763,
+      "sha256": "f62ccaa216874c99a20254a33603fd8576851bed4d001cbe8b58f02a232cd4eb",
+      "media": {
+        "durationSeconds": 8.096009,
+        "formatSize": 14993763,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "2-03",
+      "nodeId": "node_036a094526",
+      "submitId": "6d9a8c2a-61b6-47bd-a736-5f95faedc19a",
+      "resourceId": "31ed08e8-17e0-4538-afeb-82d1b355198d",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-2-03.mp4",
+      "size": 19423755,
+      "sha256": "66798aa1c9c1d6c1bf83a49df14bf8d66aa89a98ba72ffe3f983997e34ba4d0a",
+      "media": {
+        "durationSeconds": 11.103991,
+        "formatSize": 19423755,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "2-04",
+      "nodeId": "node_86744c096a",
+      "submitId": "6c69dc70-b2b6-472b-bb7a-90ff7f6029a8",
+      "resourceId": "ce5d3a86-9475-45fe-ac4f-84e74ff1cb89",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-2-04.mp4",
+      "size": 17547005,
+      "sha256": "7864a0ccd6c2d176bffc1633af9b671d80ac1473a09c40b19e1aab34ed0f60fd",
+      "media": {
+        "durationSeconds": 10.08,
+        "formatSize": 17547005,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    },
+    {
+      "shot": "2-05",
+      "nodeId": "node_a57459b089",
+      "submitId": "4660aab3-ad38-42b8-9b72-06b6a700fed4",
+      "resourceId": "eaebc6ec-7828-4277-9758-772620c75b39",
+      "file": "C:\\Users\\EDY\\Documents\\ChatGPT\\即梦\\deliverables\\山神-10-第10集视频\\山神-10-2-05.mp4",
+      "size": 10420248,
+      "sha256": "2d8fcd7e287b175143a75133654c8071329864bc35b9194c98e8d722366ff973",
+      "media": {
+        "durationSeconds": 5.088005,
+        "formatSize": 10420248,
+        "video": {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280
+        },
+        "audio": {
+          "codec_name": "aac"
+        }
+      },
+      "status": "valid"
+    }
+  ]
+}
